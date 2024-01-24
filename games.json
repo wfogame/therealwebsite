@@ -1,4 +1,22 @@
 [
+   {
+    "name": "Gloom",
+    "image": "cover.svg",
+    "directory": "Gloom",
+    "recommended": "1"
+  },
+  {
+    "name": "Fly",
+    "image": "cover.svg",
+    "directory": "fly",
+    "recommended": "1"
+  },
+  {
+    "name": "Copter",
+    "image": "cover.svg",
+    "directory": "copter",
+    "recommended": "1"
+  },
       {
     "name": "Minesweeper",
     "image": "cover.svg",
