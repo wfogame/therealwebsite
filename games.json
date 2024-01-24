@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Copter",
+    "image": "cover.svg",
+    "directory": "copter",
+    "recommended": "1"
+  },
       {
     "name": "Minesweeper",
     "image": "cover.svg",
