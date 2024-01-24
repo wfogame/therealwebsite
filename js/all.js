@@ -186,6 +186,11 @@ var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/promi
 // promise polyfill
 var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js';document.body.appendChild(s);
 // fetch polyfill
+var s=document.createElement('script');s.src='https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest';document.body.appendChild(s);
+// element.closest polyfill
+var s=document.createElement('script');s.src='https://cdn.polyfill.io/v2/polyfill.min.js?features=CustomEvent';document.body.appendChild(s);
+// customevent polyfill
+
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
