@@ -190,7 +190,49 @@ var s=document.createElement('script');s.src='https://polyfill.io/v3/polyfill.mi
 // element.closest polyfill
 var s=document.createElement('script');s.src='https://cdn.polyfill.io/v2/polyfill.min.js?features=CustomEvent';document.body.appendChild(s);
 // customevent polyfill
+function loadScript(src, callback) {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = src;
+script.onload = callback;
+document.head.appendChild(script);
+}
 
+var polyfillUrls = [
+'https://cdn.jsdelivr.net/npm/core-js-bundle@3',
+'https://cdn.jsdelivr.net/npm/@babel/preset-env@7',
+'https://cdn.jsdelivr.net/npm/es6-object-assign@1',
+'https://cdn.jsdelivr.net/npm/es6-promise@4',
+'https://cdn.jsdelivr.net/npm/whatwg-fetch@3',
+'https://cdn.jsdelivr.net/npm/intersection-observer@2',
+'https://cdn.jsdelivr.net/npm/custom-event-polyfill@1',
+'https://cdn.jsdelivr.net/npm/element-closest@3',
+'https://polyfill.io/v3/polyfill.min.js?features=AbortController%2CAggregateError%2CArray.from%2CArray.isArray%2CArray.of%2CArray.prototype.%40%40iterator%2CArray.prototype.at%2CArray.prototype.copyWithin%2CArray.prototype.entries%2CArray.prototype.every%2CBlob%2CHTMLDocument%2CHTMLPictureElement%2CHTMLTemplateElement%2Cconsole%2Cconsole.assert%2Cconsole.warn%2Cconsole.trace%2Cconsole.timelineEnd%2Cconsole.timeline%2Cconsole.timeStamp%2Cconsole.time%2Cconsole.timeEnd%2Cconsole.table%2Cconsole.profiles%2Cconsole.profileEnd%2Cconsole.profile%2Cconsole.markTimeline%2Cconsole.info%2Cconsole.groupEnd%2Cconsole.groupCollapsed%2Cconsole.group%2Cconsole.exception%2Cconsole.error%2Cconsole.dirxml%2Cconsole.dir%2Cconsole.clear%2Cconsole.count%2Cconsole.debug%2CglobalThis%2Cfetch%2ClocalStorage%2CgetComputedStyle%2Cdocument%2CdevicePixelRatio',
+'https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2',
+'https://cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min.js',
+'https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js',
+'https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest',
+'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js',
+'https://cdn.polyfill.io/v2/polyfill.min.js?features=CustomEvent',
+'https://cdn.jsdelivr.net/npm/flexibility@2.2.3/dist/flexibility.js',
+'https://cdn.jsdelivr.net/npm/autoprefixer@10.4.2/dist/autoprefixer.js',
+'https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js',
+'https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js',
+'https://cdn.jsdelivr.net/npm/rem-unit-polyfill@1.1.3/rem.min.js',
+https://cdn.jsdelivr.net/npm/nodelist-foreach@1'
+];
+
+
+function loadPolyfills(index) {
+if (index < polyfillUrls.length) {
+loadScript(polyfillUrls[index], function () {
+loadPolyfills(index + 1);
+});
+}
+}
+
+loadPolyfills(0);
+// polyfills
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
