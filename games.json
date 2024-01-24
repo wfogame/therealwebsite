@@ -1,4 +1,10 @@
 [
+   {
+    "name": "Gloom",
+    "image": "cover.svg",
+    "directory": "Gloom",
+    "recommended": "1"
+  },
   {
     "name": "Fly",
     "image": "cover.svg",
