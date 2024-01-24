@@ -182,6 +182,10 @@ var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/css-v
 // ie 11 css polyfill
 var s=document.createElement('script');s.src='https://polyfill.io/v3/polyfill.min.js?features=AbortController%2CAggregateError%2CArray.from%2CArray.isArray%2CArray.of%2CArray.prototype.%40%40iterator%2CArray.prototype.at%2CArray.prototype.copyWithin%2CArray.prototype.entries%2CArray.prototype.every%2CBlob%2CHTMLDocument%2CHTMLPictureElement%2CHTMLTemplateElement%2Cconsole%2Cconsole.assert%2Cconsole.warn%2Cconsole.trace%2Cconsole.timelineEnd%2Cconsole.timeline%2Cconsole.timeStamp%2Cconsole.time%2Cconsole.timeEnd%2Cconsole.table%2Cconsole.profiles%2Cconsole.profileEnd%2Cconsole.profile%2Cconsole.markTimeline%2Cconsole.info%2Cconsole.groupEnd%2Cconsole.groupCollapsed%2Cconsole.group%2Cconsole.exception%2Cconsole.error%2Cconsole.dirxml%2Cconsole.dir%2Cconsole.clear%2Cconsole.count%2Cconsole.debug%2CglobalThis%2Cfetch%2ClocalStorage%2CgetComputedStyle%2Cdocument%2CdevicePixelRatio';document.body.appendChild(s);
 // some generic polyfills for ie 11
+var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min.js';document.body.appendChild(s);
+// promise polyfill
+var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js';document.body.appendChild(s);
+// fetch polyfill
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
