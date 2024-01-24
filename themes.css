@@ -1,9 +1,16 @@
+:root {
+     --inputbg: #3c096c;
+    --inputborder: #5a189a;
+    --uibg: #240046;
+    --textcolor: #fff;
+    --bg: #10002b;
+}
 body {
-    --inputbg: #000000;
-    --inputborder: #000000;
-    --uibg: #000000;
-    --textcolor: #000;
-    --bg: #000000;
+ --inputbg: #3c096c;
+    --inputborder: #5a189a;
+    --uibg: #240046;
+    --textcolor: #fff;
+    --bg: #10002b;
 }
 body[theme=custom] {
     --inputbg: #3c096c;
