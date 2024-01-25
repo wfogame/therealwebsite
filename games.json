@@ -1,5 +1,11 @@
 [
   {
+    "name": "Creeper Craft",
+    "image": "cover.svg",
+    "directory": "creeper",
+    "recommended": "1"
+  },
+  {
     "name": "Block Zappers 3",
     "image": "cover.svg",
     "directory": "zap",
