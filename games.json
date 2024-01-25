@@ -1,5 +1,11 @@
 [
   {
+    "name": "Block Zappers 3",
+    "image": "cover.svg",
+    "directory": "zap",
+    "recommended": "1"
+  },
+  {
     "name": "Frogger",
     "image": "cover.svg",
     "directory": "frogger",
