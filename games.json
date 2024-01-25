@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Bike Champ 2",
+    "image": "cover.svg",
+    "directory": "bikechamp2",
+    "recommended": "1"
+  },
    {
     "name": "Grand Theft Grotto",
     "image": "cover.svg",
