@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Torture Osama",
+    "image": "cover.svg",
+    "directory": "tortureosama",
+    "recommended": "1"
+  },
    {
     "name": "Sonic Tetris",
     "image": "cover.svg",
