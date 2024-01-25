@@ -1,5 +1,11 @@
 [
   {
+    "name": "Super Mario 63",
+    "image": "cover.svg",
+    "directory": "mario63",
+    "recommended": "1"
+  },
+  {
     "name": "Roblox",
     "image": "cover.svg",
     "directory": "roblox",
