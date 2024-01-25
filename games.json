@@ -1,10 +1,5 @@
 [
-  {
-    "name": "Syrian Revolt",
-    "image": "cover.svg",
-    "directory": "syria",
-    "recommended": "1"
-  },
+  
   {
     "name": "Creeper Craft",
     "image": "cover.svg",
@@ -45,12 +40,6 @@
     "name": "Beach Buggy Racing",
     "image": "cover.svg",
     "directory": "dune",
-    "recommended": "1"
-  },
-  {
-    "name": "Torture Osama",
-    "image": "cover.svg",
-    "directory": "tortureosama",
     "recommended": "1"
   },
    {
