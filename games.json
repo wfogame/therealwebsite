@@ -1,5 +1,11 @@
 [
   {
+    "name": "Beach Buggy Racing",
+    "image": "cover.svg",
+    "directory": "dune",
+    "recommended": "1"
+  },
+  {
     "name": "Torture Osama",
     "image": "cover.svg",
     "directory": "tortureosama",
