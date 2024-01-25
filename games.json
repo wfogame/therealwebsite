@@ -1,4 +1,10 @@
 [
+   {
+    "name": "Sonic Tetris",
+    "image": "cover.svg",
+    "directory": "sonicte",
+    "recommended": "1"
+  },
   {
     "name": "Super Mario 63",
     "image": "cover.svg",
