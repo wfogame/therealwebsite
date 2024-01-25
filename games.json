@@ -1,4 +1,10 @@
 [
+   {
+    "name": "Grand Theft Grotto",
+    "image": "cover.svg",
+    "directory": "gtg",
+    "recommended": "1"
+  },
   {
     "name": "Bike Champ",
     "image": "cover.svg",
