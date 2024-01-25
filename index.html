@@ -56,15 +56,29 @@
     </sl-dialog>
   </alerts>
   <body id="noscroll">
-    <header>
-      <a href="/index.html">Home</a>
+  <div class="header" id="header">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="/index.html">Home</a>
       <a href="/bookmarklets.html">Bookmarklets</a>
       <a href="/projects.html">Games</a>
       <a href="/settings.html">Settings</a>
       <a href="/support.html">Support</a>
       <a id="blank" href="#">Open Blank</a>
-      <a href="/about.html">About</a>
-    </header>
+      <a href="/about.html">About</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <script>
+function myFunction() {
+  var x = document.getElementById("header");
+  if (x.className === "header") {
+    x.className += " responsive";
+  } else {
+    x.className = "header";
+  }
+}
+</script>
+</div>
+
     <main id="main" class="noscroll">
       <h1>selenite.</h1>
       <noscript>enable javascript if you want the games to actually load</noscript>
