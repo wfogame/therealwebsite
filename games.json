@@ -1,5 +1,11 @@
 [
    {
+    "name": "Flash Flappy Bird",
+    "image": "cover.svg",
+    "directory": "flashflappy",
+    "recommended": "1"
+  },
+   {
     "name": "Gloom",
     "image": "cover.svg",
     "directory": "Gloom",
