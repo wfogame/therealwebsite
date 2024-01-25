@@ -1,5 +1,11 @@
 [
   {
+    "name": "Frogger",
+    "image": "cover.svg",
+    "directory": "frogger",
+    "recommended": "1"
+  },
+  {
     "name": "Simon",
     "image": "cover.svg",
     "directory": "simon",
