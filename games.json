@@ -1,5 +1,11 @@
 [
   {
+    "name": "Syrian Revolt",
+    "image": "cover.svg",
+    "directory": "syria",
+    "recommended": "1"
+  },
+  {
     "name": "Creeper Craft",
     "image": "cover.svg",
     "directory": "creeper",
