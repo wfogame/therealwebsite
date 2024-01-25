@@ -1,5 +1,11 @@
 [
   {
+    "name": "Simon",
+    "image": "cover.svg",
+    "directory": "simon",
+    "recommended": "1"
+  },
+  {
     "name": "Metro Operator NYC",
     "image": "cover.svg",
     "directory": "metro",
