@@ -16,6 +16,9 @@
     --textcolor: #fff !important;
     --bg: #10002b !important;
 }
+.suggest {
+    fill: white;
+}
 .hiddenUpload {
   display:none !important;
   visibility: hidden !important;
