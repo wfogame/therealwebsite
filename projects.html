@@ -20,6 +20,24 @@
     <script src="/js/cookie.js"></script>
 
 
+<script>
+ 
+    document.addEventListener('DOMContentLoaded', function () {
+        var searchbar = document.querySelector('#gamesearch');
+        var games = document.querySelectorAll('.game');
+
+        searchbar.addEventListener('input', function () {
+            var filter = searchbar.value.toUpperCase();
+
+            games.forEach(function (game) {
+                var gameText = game.textContent || game.innerText;
+                var displayStyle = gameText.toUpperCase().includes(filter) ? '' : 'none';
+                game.style.display = displayStyle;
+            });
+        });
+    });
+
+</script>
     
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       new Crate({
@@ -166,25 +184,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
-</script>
-
-<script>
- 
-    document.addEventListener('DOMContentLoaded', function () {
-        var searchbar = document.querySelector('#gamesearch');
-        var games = document.querySelectorAll('.game');
-
-        searchbar.addEventListener('input', function () {
-            var filter = searchbar.value.toUpperCase();
-
-            games.forEach(function (game) {
-                var gameText = game.textContent || game.innerText;
-                var displayStyle = gameText.toUpperCase().includes(filter) ? '' : 'none';
-                game.style.display = displayStyle;
-            });
-        });
-    });
 
 </script>
   </body>
