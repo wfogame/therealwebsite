@@ -1,5 +1,10 @@
 [
-  
+  {
+    "name": "Rabbit Rescue",
+    "image": "cover.svg",
+    "directory": "rabbit",
+    "recommended": "1"
+  },
   {
     "name": "Creeper Craft",
     "image": "cover.svg",
