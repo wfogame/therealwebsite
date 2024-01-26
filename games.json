@@ -1,5 +1,11 @@
 [
   {
+    "name": "New Grounds",
+    "image": "cover.svg",
+    "directory": "ng",
+    "recommended": "1"
+  },
+  {
     "name": "Jewels Breaker Puzzle:Brick breaker challenge For PC (Windows & MAC)",
     "image": "cover.svg",
     "directory": "jewel",
