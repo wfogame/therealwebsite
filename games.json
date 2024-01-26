@@ -1,5 +1,11 @@
 [
   {
+    "name": "Jewels Breaker Puzzle:Brick breaker challenge For PC (Windows & MAC)",
+    "image": "cover.svg",
+    "directory": "jewel",
+    "recommended": "1"
+  },
+  {
     "name": "Simcity Build:IT",
     "image": "cover.svg",
     "directory": "simcity",
