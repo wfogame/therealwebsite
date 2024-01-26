@@ -1,5 +1,11 @@
 [
   {
+    "name": ".sb2 to .swf",
+    "image": "cover.svg",
+    "directory": "sb2toswf",
+    "recommended": "1"
+  },
+  {
     "name": "The Oregon Trail",
     "image": "cover.svg",
     "directory": "oregon",
