@@ -116,28 +116,28 @@ h3,
 p,
 a,
 label {
-  margin: 0;
-  padding: 0;
-  text-shadow: var(--shadow);
+  margin: 0 !important;
+  padding: 0 !important;
+  text-shadow: var(--shadow) !important;
 }
 .samerow {
-  display: flex;
-  justify-content: center;
-  gap: 0;
-  flex-wrap: wrap;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 0 !important;
+  flex-wrap: wrap !important;
 }
 h1 {
-  font-size: 60px;
+  font-size: 60px !important;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 40px !important;
 }
 h3 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 p, a {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 button, input#websubmit.submit, input[type=submit] {
@@ -236,22 +236,22 @@ a {
 }
 
 input[type="text"] {
-  width: 50%;
-  background-color: var(--inputbg);
-  box-sizing: border-box;
-  font-size: 20px;
-  padding: 0.8% 0.8%;
-  text-align: center;
-  border-radius: 5px;
-  outline: none;
-  margin: 10px;
-  border: 2px solid var(--inputborder);
-  border-radius: 5px;
-  transition: opacity 0.25s ease-in-out;
-  opacity: 100%;
+  width: 50% !important;
+  background-color: var(--inputbg) !important;
+  box-sizing: border-box !important;
+  font-size: 20px !important;
+  padding: 0.8% 0.8% !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  outline: none !important;
+  margin: 10px !important;
+  border: 2px solid var(--inputborder) !important;
+  border-radius: 5px !important;
+  transition: opacity 0.25s ease-in-out !important;
+  opacity: 100% !important;
 }
 input[type=text]:hover {
-  opacity: 80%;
+  opacity: 80% !important;
 }
 ::placeholder {
   color: var(--textcolor) !important;
@@ -327,6 +327,6 @@ label {
   margin: 5px;
 }
 #bgimg {
-  width: 30vw;
-  font-size: 16px;
+  width: 30vw !important;
+  font-size: 16px !important;
 }
