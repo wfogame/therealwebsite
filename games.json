@@ -1,5 +1,11 @@
 [
   {
+    "name": "Scratch 1",
+    "image": "cover.svg",
+    "directory": "scratch1",
+    "recommended": "1"
+  },
+  {
     "name": "Scratch 2",
     "image": "cover.svg",
     "directory": "scratch2",
