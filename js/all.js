@@ -178,6 +178,8 @@ if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))) {
 }
 !function(){var e=document.createElement("script");e.src="https://code.jquery.com/jquery-3.7.1.min.js",document.head.appendChild(e),e.onload=function(){var t=$("<script>").attr("src","https://unpkg.com/webp-hero@0.0.2/dist-cjs/polyfills.js");$("head").append(t);var n=$("<script>").attr("src","https://unpkg.com/webp-hero@0.0.2/dist-cjs/webp-hero.bundle.js");$("head").append(n),t.on("load",function(){n.on("load",function(){var t=new webpHero.WebpMachine;t.polyfillDocument()})})}}();
 // webp loader for older browsers
+var script1=document.createElement("script");script1.src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js",script1.integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd",script1.crossOrigin="anonymous",document.head.appendChild(script1);var script2=document.createElement("script");script2.src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js",script2.integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",script2.crossOrigin="anonymous",document.head.appendChild(script2);
+// bootstrap 3
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
