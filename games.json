@@ -1,5 +1,11 @@
 [
   {
+    "name": "GrubHub",
+    "image": "cover.svg",
+    "directory": "grubhub",
+    "recommended": "1"
+  },
+  {
     "name": "Rabbit Rescue",
     "image": "cover.svg",
     "directory": "rabbit",
