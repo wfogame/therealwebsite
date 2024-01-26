@@ -34,6 +34,18 @@
   font-family: 'Prompt', sans-serif !important;
   color: var(--textcolor) !important;
 }
+.modal-content {
+background:var(--uibg)!important;
+}
+#myModal {
+color:white!important;
+}
+.modal-footer {
+border:0!important;
+}
+.modal-header {
+border:0!important;
+}
 body {
   margin: 0 !important;
   padding: 0 !important;
