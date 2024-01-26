@@ -156,12 +156,16 @@ There is still an option to disable ads. You can also use an adblocker (which I 
     </footer>
     <script>
 document.addEventListener("DOMContentLoaded", function () {
-	if(document.querySelectorAll('[id=adcontainer]')) {
-		for(let i = 0; i < document.querySelectorAll('[id=adcontainer]').length; i++) {
-			if(Math.random() < 0.5 || localStorage.getItem("selenite.adblock") == "true")
-			document.querySelectorAll('[id=adcontainer]')[i].innerHTML = "";
-		}
-	}
+    const adContainers = document.querySelectorAll('[id=adcontainer]');
+    if (adContainers.length > 0) {
+        for (let i = 0; i < adContainers.length; i++) {
+            if (Math.random() < 0.5 || localStorage.getItem("selenite.adblock") === "true") {
+                adContainers[i].innerHTML = "";
+            }
+        }
+    }
+});
+
 
 </script>
 
