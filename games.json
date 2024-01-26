@@ -1,4 +1,10 @@
 [
+   {
+    "name": "VMware Workstation Pro 9",
+    "image": "cover.svg",
+    "directory": "vm",
+    "recommended": "1"
+  },
   {
     "name": "Win 98",
     "image": "cover.svg",
