@@ -1,5 +1,11 @@
 [
   {
+    "name": "The Oregon Trail",
+    "image": "cover.svg",
+    "directory": "oregon",
+    "recommended": "1"
+  },
+  {
     "name": "Scratch 1",
     "image": "cover.svg",
     "directory": "scratch1",
