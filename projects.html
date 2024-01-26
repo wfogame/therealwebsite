@@ -164,23 +164,21 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 </script>
-<script>
-  function searchGames() {
-    var input, filter, games, game, title, i;
-    input = document.getElementById("gamesearch");
-    filter = input.value.toUpperCase();
-    games = document.getElementById("games");
-    game = games.getElementsByClassName("game");
 
-    for (i = 0; i < game.length; i++) {
-      title = game[i].getElementsByTagName("h1")[0];
-      if (title.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        game[i].style.display = "";
-      } else {
-        game[i].style.display = "none";
-      }
-    }
-  }
+<script>
+  $(document).ready(function() {
+    $("#gamesearch").on("input", function() {
+      var filter = $(this).val().toUpperCase();
+      $(".game").each(function() {
+        var title = $(this).find("h1").text().toUpperCase();
+        if (title.indexOf(filter) > -1) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+    });
+  });
 </script>
   </body>
 </html>
