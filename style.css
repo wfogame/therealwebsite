@@ -17,8 +17,8 @@
     --bg: #10002b !important;
 }
 .hiddenUpload {
-  display:none;
-  visibility: hidden;
+  display:none !important;
+  visibility: hidden !important;
 }
 * {
   transition-duration: 0.5s !important;
