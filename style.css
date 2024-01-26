@@ -8,18 +8,8 @@
   100% {
     opacity: 100 !important;
   }
-.modal-content {
-background:var(--uibg)!important;
 }
-#myModal {
-color:white!important;
-}
-.modal-footer {
-border:0!important;
-}
-.modal-header {
-border:0!important;
-}
+
 :root {
      --inputbg: #3c096c !important; 
     --inputborder: #5a189a !important;
