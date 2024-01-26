@@ -111,7 +111,7 @@ There is still an option to disable ads. You can also use an adblocker (which I 
       <input class="hiddenUpload" type="file" accept=".save" hidden />
 
 
-      <input type="text" id="gamesearch" placeholder="Type here to search.." />
+      <input type="text" class="searchbar" id="gamesearch" placeholder="Type here to search.." />
       <div class="samerow">
         <sl-tooltip content="Remember to download your save, so you don't lose your progress." trigger="manual" class="manual-tooltip">
           <button onclick="downloadMainSave()">Download Save</button>
@@ -166,19 +166,22 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <script>
-  $(document).ready(function() {
-    $("#gamesearch").on("input", function() {
-      var filter = $(this).val().toUpperCase();
-      $(".game").each(function() {
-        var title = $(this).find("h1").text().toUpperCase();
-        if (title.indexOf(filter) > -1) {
-          $(this).show();
-        } else {
-          $(this).hide();
-        }
-      });
+ 
+    document.addEventListener('DOMContentLoaded', function () {
+        var searchbar = document.querySelector('.searchbar');
+        var games = document.querySelectorAll('.game');
+
+        searchbar.addEventListener('input', function () {
+            var filter = searchbar.value.toUpperCase();
+
+            games.forEach(function (game) {
+                var gameText = game.textContent || game.innerText;
+                var displayStyle = gameText.toUpperCase().includes(filter) ? '' : 'none';
+                game.style.display = displayStyle;
+            });
+        });
     });
-  });
+
 </script>
   </body>
 </html>
