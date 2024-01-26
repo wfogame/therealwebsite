@@ -1,5 +1,11 @@
 [
   {
+    "name": "Win 98",
+    "image": "cover.svg",
+    "directory": "98",
+    "recommended": "1"
+  },
+  {
     "name": "Advanced Terrain Demo",
     "image": "cover.svg",
     "directory": "demo",
