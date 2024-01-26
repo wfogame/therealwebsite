@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Advanced Terrain Demo",
+    "image": "cover.svg",
+    "directory": "demo",
+    "recommended": "1"
+  },
     {
     "name": "Bullet Heaven",
     "image": "cover.svg",
