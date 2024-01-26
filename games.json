@@ -1,5 +1,11 @@
 [
   {
+    "name": "Web Assembly Flash",
+    "image": "cover.svg",
+    "directory": "waflash",
+    "recommended": "1"
+  },
+  {
     "name": "sb2 to swf",
     "image": "cover.svg",
     "directory": "sb2toswf",
