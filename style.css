@@ -18,6 +18,7 @@
 }
 .hiddenUpload {
   display:none;
+  visibility: hidden;
 }
 * {
   transition-duration: 0.5s !important;
