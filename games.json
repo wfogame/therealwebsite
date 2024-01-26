@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Simcity Build:IT",
+    "image": "cover.svg",
+    "directory": "simcity",
+    "recommended": "1"
+  },
    {
     "name": "VMware Workstation Pro 9",
     "image": "cover.svg",
