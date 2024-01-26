@@ -163,33 +163,33 @@ img {
 }
 
 .game, .suggest {
-  width: 15%;
-  border-radius: 20px;
-  display: inline-block;
-  background-color: var(--uibg);
-  margin: 15px;
-  cursor: pointer;
-  box-shadow: 0px 0px 5px 5px var(--uibg);
+  width: 15% !important;
+  border-radius: 20px !important;
+  display: inline-block !important;
+  background-color: var(--uibg) !important;
+  margin: 15px !important;
+  cursor: pointer !important;
+  box-shadow: 0px 0px 5px 5px var(--uibg) !important;
 }
 
 .game:hover, .suggest:hover {
-  transform: scale(1.1);
-  filter: brightness(85%);
-  box-shadow: 0px 0px 5px 5px var(--uibg);
+  transform: scale(1.1) !important;
+  filter: brightness(85%) !important;
+  box-shadow: 0px 0px 5px 5px var(--uibg) !important;
 }
 
 .game h1, .suggest h1 {
-  font-size: 12px;
-  float: right;
-  margin-right: 10px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  font-size: 12px !important;
+  float: right !important;
+  margin-right: 10px !important;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
 }
 
 .game img, .suggest img {
-  width: 100%;
-  border-radius: 20px;
-  aspect-ratio: 1 / 1;
+  width: 100% !important;
+  border-radius: 20px !important;
+  aspect-ratio: 1 / 1 !important;
 }
 
 img.star {
@@ -234,8 +234,8 @@ input[type=text]:hover {
   opacity: 80%;
 }
 ::placeholder {
-  color: var(--textcolor);
-  opacity: 0.4; /* Firefox */
+  color: var(--textcolor) !important;
+  opacity: 0.4 !important; /* Firefox */
 }
 
 .bookmarkletdiv {
@@ -260,14 +260,14 @@ form {
 }
 
 select {
-  border-radius: 5px;
-  background-color: var(--inputbg);
-  border-color: var(--inputborder);
-  border-width: 5px;
-  border-radius: 10px;
-  border-style: solid;
-  padding: 0.5% 0.5%;
-  margin: 0.25%;
+  border-radius: 5px !important;
+  background-color: var(--inputbg) !important;
+  border-color: var(--inputborder) !important;
+  border-width: 5px !important;
+  border-radius: 10px !important;
+  border-style: solid !important;
+  padding: 0.5% 0.5% !important;
+  margin: 0.25% !important;
 }
 
 gameframe {
