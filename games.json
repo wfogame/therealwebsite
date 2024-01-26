@@ -1,6 +1,6 @@
 [
   {
-    "name": "Web Assembly Flash",
+    "name": "Web Assembly Flash (WAFlash)",
     "image": "cover.svg",
     "directory": "waflash",
     "recommended": "1"
