@@ -1,4 +1,10 @@
 [
+    {
+    "name": "Bullet Heaven",
+    "image": "cover.svg",
+    "directory": "heaven",
+    "recommended": "1"
+  },
   {
     "name": "GrubHub",
     "image": "cover.svg",
