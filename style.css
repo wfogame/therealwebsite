@@ -3,38 +3,38 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
 @keyframes loadInAnimation {
   0% {
-    opacity: 0;
+    opacity: 0 !important;
   }
   100% {
-    opacity: 100;
+    opacity: 100 !important;
   }
 }
 :root {
-     --inputbg: #3c096c;
-    --inputborder: #5a189a;
-    --uibg: #240046;
-    --textcolor: #fff;
-    --bg: #10002b;
+     --inputbg: #3c096c !important; 
+    --inputborder: #5a189a !important;
+    --uibg: #240046 !important;
+    --textcolor: #fff !important;
+    --bg: #10002b !important;
 }
 * {
-  transition-duration: 0.5s;
-  outline: none;
-  border: none;
-  box-sizing: border-box;
-  align-content: center;
-  text-align: center;
-  font-family: 'Prompt', sans-serif;
-  color: var(--textcolor);
+  transition-duration: 0.5s !important;
+  outline: none !important;
+  border: none !important;
+  box-sizing: border-box !important;
+  align-content: center !important;
+  text-align: center !important;
+  font-family: 'Prompt', sans-serif !important;
+  color: var(--textcolor) !important;
 }
 body {
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--textcolor);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: var(--bg) !important;
+  color: var(--textcolor) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 header,
 footer {
