@@ -193,11 +193,11 @@ img {
 }
 
 img.star {
-  float: left;
-  width: 10%;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  margin-left: 10px;
+  float: left !important;
+  width: 10% !important;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  margin-left: 10px !important;
 }
 
 #noscroll {
