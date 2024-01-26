@@ -16,6 +16,9 @@
     --textcolor: #fff !important;
     --bg: #10002b !important;
 }
+.hiddenUpload {
+  display:none;
+}
 * {
   transition-duration: 0.5s !important;
   outline: none !important;
