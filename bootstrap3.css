@@ -13,6 +13,9 @@
 .modal-open {
   overflow: hidden;
 }
+.close {
+  float:right;
+}
 .modal {
   position: fixed;
   top: 0;
