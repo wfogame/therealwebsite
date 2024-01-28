@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Eggycar",
+    "image": "cover.svg",
+    "directory": "eggycar",
+    "recommended": "1"
+  },
    {
     "name": "The Binding of Issac",
     "image": "cover.svg",
