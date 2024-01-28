@@ -1,4 +1,70 @@
 [
+   {
+    "name": "Grand Truckismo",
+    "image": "cover.svg",
+    "directory": "grand",
+    "recommended": "1"
+  },
+  {
+    "name": "Turbo Racing 3",
+    "image": "cover.svg",
+    "directory": "race",
+    "recommended": "1"
+  },
+    {
+    "name": "Убейте ИГИЛ",
+    "image": "cover.svg",
+    "directory": "игил",
+    "recommended": "1"
+  },
+  {
+    "name": "Eggycar",
+    "image": "cover.svg",
+    "directory": "eggycar",
+    "recommended": "1"
+  },
+   {
+    "name": "The Binding of Issac",
+    "image": "cover.svg",
+    "directory": "tboi",
+    "recommended": "1"
+  },
+  {
+    "name": "Trump vs Kim Wrestling 2016",
+    "image": "cover.svg",
+    "directory": "trump",
+    "recommended": "1"
+  },
+  {
+    "name": "Snake.is",
+    "image": "cover.svg",
+    "directory": "snakeon",
+    "recommended": "1"
+  },
+  {
+    "name": "Offroad Online",
+    "image": "cover.svg",
+    "directory": "off",
+    "recommended": "1"
+  },
+  {
+    "name": "Gravitee Wars Online",
+    "image": "cover.svg",
+    "directory": "gravity",
+    "recommended": "1"
+  },
+  {
+    "name": "Gun Spin",
+    "image": "cover.svg",
+    "directory": "gunspin",
+    "recommended": "1"
+  },
+  {
+    "name": "Gun Knight",
+    "image": "cover.svg",
+    "directory": "gun",
+    "recommended": "1"
+  },
   {
     "name": "Web Assembly Flash (WAFlash)",
     "image": "cover.svg",
