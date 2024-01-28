@@ -1,5 +1,11 @@
 [
   {
+    "name": "Gun Knight",
+    "image": "cover.svg",
+    "directory": "gun",
+    "recommended": "1"
+  },
+  {
     "name": "Web Assembly Flash (WAFlash)",
     "image": "cover.svg",
     "directory": "waflash",
