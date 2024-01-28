@@ -1,5 +1,11 @@
 [
   {
+    "name": "Gravitee Wars Online",
+    "image": "cover.svg",
+    "directory": "gravity",
+    "recommended": "1"
+  },
+  {
     "name": "Gun Spin",
     "image": "cover.svg",
     "directory": "gunspin",
