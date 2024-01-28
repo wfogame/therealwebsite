@@ -1,4 +1,10 @@
 [
+    {
+    "name": "Убейте ИГИЛ",
+    "image": "cover.svg",
+    "directory": "игил",
+    "recommended": "1"
+  },
   {
     "name": "Eggycar",
     "image": "cover.svg",
