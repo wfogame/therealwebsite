@@ -1,5 +1,11 @@
 [
   {
+    "name": "Offroad Online",
+    "image": "cover.svg",
+    "directory": "off",
+    "recommended": "1"
+  },
+  {
     "name": "Gravitee Wars Online",
     "image": "cover.svg",
     "directory": "gravity",
