@@ -1,5 +1,11 @@
 [
   {
+    "name": "Gun Spin",
+    "image": "cover.svg",
+    "directory": "gunspin",
+    "recommended": "1"
+  },
+  {
     "name": "Gun Knight",
     "image": "cover.svg",
     "directory": "gun",
