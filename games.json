@@ -1,4 +1,10 @@
 [
+   {
+    "name": "The Binding of Issac",
+    "image": "cover.svg",
+    "directory": "tboi",
+    "recommended": "1"
+  },
   {
     "name": "Trump vs Kim Wrestling 2016",
     "image": "cover.svg",
