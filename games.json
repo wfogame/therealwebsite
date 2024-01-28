@@ -1,4 +1,10 @@
 [
+  {
+    "name": "Turbo Racing 3",
+    "image": "cover.svg",
+    "directory": "race",
+    "recommended": "1"
+  },
     {
     "name": "Убейте ИГИЛ",
     "image": "cover.svg",
