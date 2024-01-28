@@ -1,4 +1,10 @@
 [
+   {
+    "name": "Grand Truckismo",
+    "image": "cover.svg",
+    "directory": "grand",
+    "recommended": "1"
+  },
   {
     "name": "Turbo Racing 3",
     "image": "cover.svg",
