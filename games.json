@@ -1,5 +1,11 @@
 [
   {
+    "name": "Trump vs Kim Wrestling 2016",
+    "image": "cover.svg",
+    "directory": "trump",
+    "recommended": "1"
+  },
+  {
     "name": "Snake.is",
     "image": "cover.svg",
     "directory": "snakeon",
