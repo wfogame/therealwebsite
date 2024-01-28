@@ -1,5 +1,11 @@
 [
   {
+    "name": "Snake.is",
+    "image": "cover.svg",
+    "directory": "snakeon",
+    "recommended": "1"
+  },
+  {
     "name": "Offroad Online",
     "image": "cover.svg",
     "directory": "off",
