@@ -1,5 +1,47 @@
 [
 	{
+		"name": "Eaglercraft 1.12.2",
+		"image": "cover.svg",
+		"directory": "eg1.12.2",
+		"recommended": "1"
+	},
+	{
+		"name": "Eaglercraft 1.5.2 Service Pack 1",
+		"image": "cover.svg",
+		"directory": "sp1",
+		"recommended": "1"
+	},
+	{
+		"name": "Ayuncraft",
+		"image": "cover.svg",
+		"directory": "ayun",
+		"recommended": "1"
+	},
+	{
+		"name": "FlashGL Demo",
+		"image": "cover.svg",
+		"directory": "flashgl",
+		"recommended": "1"
+	},
+	{
+		"name": "Kick That Buddy",
+		"image": "cover.svg",
+		"directory": "kick",
+		"recommended": "1"
+	},
+	{
+		"name": "Codercraft",
+		"image": "cover.svg",
+		"directory": "codercraft",
+		"recommended": "1"
+	},
+	{
+		"name": "Nebula Client",
+		"image": "cover.svg",
+		"directory": "nebula",
+		"recommended": "1"
+	},
+	{
 		"name": "Grand Truckismo",
 		"image": "cover.svg",
 		"directory": "grand",
@@ -359,7 +401,7 @@
 		"image": "logo.png"
 	},
 	{
-		"name": "Eaglercraft 1.5.2",
+		"name": "Eaglercraft 1.5.2 RTM",
 		"directory": "offline-mc",
 		"image": "logo.png",
 		"recommended": "1"
