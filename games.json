@@ -1,5 +1,11 @@
 [
 	{
+		"name": "FlashGL Demo",
+		"image": "cover.svg",
+		"directory": "flashgl",
+		"recommended": "1"
+	},
+	{
 		"name": "Kick That Buddy",
 		"image": "cover.svg",
 		"directory": "kick",
