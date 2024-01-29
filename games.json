@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Kick That Buddy",
+		"image": "cover.svg",
+		"directory": "kick",
+		"recommended": "1"
+	},
+	{
 		"name": "Codercraft",
 		"image": "cover.svg",
 		"directory": "codercraft",
