@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Codercraft",
+		"image": "cover.svg",
+		"directory": "codercraft",
+		"recommended": "1"
+	},
+	{
 		"name": "Nebula Client",
 		"image": "cover.svg",
 		"directory": "nebula",
