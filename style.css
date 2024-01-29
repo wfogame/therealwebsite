@@ -184,7 +184,7 @@ img {
 .game, .suggest {
   width: 15% !important;
   border-radius: 20px !important;
-  display: inline-block !important;
+  display: inline-block;
   background-color: var(--uibg) !important;
   margin: 15px !important;
   cursor: pointer !important;
