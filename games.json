@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Nebula Client",
+		"image": "cover.svg",
+		"directory": "nebula",
+		"recommended": "1"
+	},
+	{
 		"name": "Grand Truckismo",
 		"image": "cover.svg",
 		"directory": "grand",
