@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Eaglercraft 1.5.2 Service Pack 1",
+		"image": "cover.svg",
+		"directory": "sp1",
+		"recommended": "1"
+	},
+	{
+		"name": "Ayuncraft",
+		"image": "cover.svg",
+		"directory": "ayun",
+		"recommended": "1"
+	},
+	{
 		"name": "FlashGL Demo",
 		"image": "cover.svg",
 		"directory": "flashgl",
