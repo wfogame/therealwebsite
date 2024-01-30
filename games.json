@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Recoil",
+		"image": "cover.svg",
+		"directory": "recoil",
+		"recommended": "1"
+	},
+	{
 		"name": "Karlson't",
 		"image": "cover.svg",
 		"directory": "karl",
