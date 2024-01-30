@@ -1,5 +1,29 @@
 [
 	{
+		"name": "Hill Climb Racing",
+		"image": "cover.svg",
+		"directory": "hill",
+		"recommended": "1"
+	},
+	{
+		"name": "Gladihoppers",
+		"image": "cover.svg",
+		"directory": "gladi",
+		"recommended": "1"
+	},
+	{
+		"name": "3kh0 v4",
+		"image": "cover.svg",
+		"directory": "v4",
+		"recommended": "1"
+	},
+	{
+		"name": "Flappy Copter",
+		"image": "cover.svg",
+		"directory": "flap",
+		"recommended": "1"
+	},
+	{
 		"name": "Eaglercraft 1.12.2",
 		"image": "cover.svg",
 		"directory": "eg1.12.2",
