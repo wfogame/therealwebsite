@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Tomb of The Mask",
+		"image": "cover.svg",
+		"directory": "tomb",
+		"recommended": "1"
+	},
+	{
 		"name": "Hill Climb Racing",
 		"image": "cover.svg",
 		"directory": "hill",
