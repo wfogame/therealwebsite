@@ -12,7 +12,7 @@ body {
     --textcolor: #fff;
     --bg: #10002b;
 }
-body[theme=3kh0] {
+body[theme=threekho] {
  --inputbg: #28A018;
     --inputborder: #0A8F00;
     --uibg: #000000;
