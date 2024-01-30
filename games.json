@@ -1,5 +1,11 @@
 [
 	{
+		"name": "3kh0 v4",
+		"image": "cover.svg",
+		"directory": "v4",
+		"recommended": "1"
+	},
+	{
 		"name": "Flappy Copter",
 		"image": "cover.svg",
 		"directory": "flap",
