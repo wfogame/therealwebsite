@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Deepest Sword",
+		"image": "cover.svg",
+		"directory": "deepest",
+		"recommended": "1"
+	},
+	{
 		"name": "Tomb of The Mask",
 		"image": "cover.svg",
 		"directory": "tomb",
