@@ -15,7 +15,7 @@ body {
 body[theme=threekho] {
  --inputbg: #28A018;
     --inputborder: #0A8F00;
-    --uibg: #000000;
+    --uibg: #111111;
     --textcolor: #fff;
     --bg: #000000;
 }
@@ -25,7 +25,7 @@ button[theme=threekho] {
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
-    color: var(--bg);
+    color: #fff;
     border: 0
 }
 body[theme=custom] {
