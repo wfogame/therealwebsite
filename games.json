@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Karlson't",
+		"image": "cover.svg",
+		"directory": "karl",
+		"recommended": "1"
+	},
+	{
 		"name": "Deepest Sword",
 		"image": "cover.svg",
 		"directory": "deepest",
