@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Hill Climb Racing",
+		"image": "cover.svg",
+		"directory": "hill",
+		"recommended": "1"
+	},
+	{
 		"name": "Gladihoppers",
 		"image": "cover.svg",
 		"directory": "gladi",
