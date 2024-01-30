@@ -19,6 +19,15 @@ body[theme=threekho] {
     --textcolor: #fff;
     --bg: #000000;
 }
+button[theme=threekho] {
+     background: var(--inputbg);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--bg);
+    border: 0
+}
 body[theme=custom] {
     --inputbg: #3c096c;
     --inputborder: #5a189a;
