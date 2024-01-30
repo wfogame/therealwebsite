@@ -10,7 +10,7 @@ The better unblocked games website.
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://gitlab.com/skysthelimit.dev/selenite)
 ## Contributors
 <a href="https://github.com/skysthelimitt"><p>Sky</p></a><img height="40px" width="40px" src="https://avatars.githubusercontent.com/u/64362346?v=4"></img><br>
-<a href="https://codeberg.org/LEGALISE_PIRACY"><p>LEGALLISE_PIRACY</p></a><br>
+<a href="https://codeberg.org/LEGALISE_PIRACY"><p>LEGALLISE_PIRACY</p></a><img height="40px" width="40px" src="https://cdn.discordapp.com/avatars/578300487678558208/e3ae410d681e77823c1df58a6d7ccab9?size=1024"></img><br>
 <a href="https://github.com/a456pur"><p>Astralogical</p></a>
 
 ## Support
