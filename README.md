@@ -9,6 +9,9 @@ The better unblocked games website.
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/selenite-cc/selenite)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://gitlab.com/skysthelimit.dev/selenite)
 ## Contributors
-[![Contrib](https://contrib.rocks/image?repo=selenite-cc/selenite#)](https://gitlab.com/skysthelimit.dev/selenite/graphs/contributors)
+<a href="https://github.com/skysthelimitt"><p>Sky</p></a><br>
+<a href="https://codeberg.org/LEGALISE_PIRACY"><p>LEGALLISE_PIRACY</p></a><br>
+<a href="https://github.com/a456pur"><p>Astralogical</p></a>
+
 ## Support
 Join our [discord server](https://discord.gg/WDZhkdFyF4) to contact our support team free of charge for any reason 24/7.
