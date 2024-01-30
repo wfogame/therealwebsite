@@ -9,7 +9,7 @@ The better unblocked games website.
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/selenite-cc/selenite)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://gitlab.com/skysthelimit.dev/selenite)
 ## Contributors
-<a href="https://github.com/skysthelimitt"><p>Sky</p></a><br>
+<a href="https://github.com/skysthelimitt"><p>Sky</p></a><br><img src="https://avatars.githubusercontent.com/u/64362346?v=4"></img>
 <a href="https://codeberg.org/LEGALISE_PIRACY"><p>LEGALLISE_PIRACY</p></a><br>
 <a href="https://github.com/a456pur"><p>Astralogical</p></a>
 
