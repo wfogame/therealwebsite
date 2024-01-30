@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Gladihoppers",
+		"image": "cover.svg",
+		"directory": "gladi",
+		"recommended": "1"
+	},
+	{
 		"name": "3kh0 v4",
 		"image": "cover.svg",
 		"directory": "v4",
