@@ -1,5 +1,11 @@
 [
 	{
+		"name": "OddFuture Client",
+		"image": "cover.svg",
+		"directory": "future",
+		"recommended": "1"
+	},
+	{
 		"name": "Eaglercraft Reborn",
 		"image": "cover.svg",
 		"directory": "reborn",
