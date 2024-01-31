@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Eaglercraft Beta 1.3",
+		"image": "cover.svg",
+		"directory": "beta",
+		"recommended": "1"
+	},
+	{
 		"name": "N0VA Client",
 		"image": "cover.svg",
 		"directory": "nova",
