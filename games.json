@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Flame Client",
+		"image": "cover.svg",
+		"directory": "flame",
+		"recommended": "1"
+	},
+	{
 		"name": "Nit Client",
 		"image": "cover.svg",
 		"directory": "nit",
