@@ -1,5 +1,11 @@
 [
 	{
+		"name": "UwU Client",
+		"image": "cover.svg",
+		"directory": "uwu",
+		"recommended": "1"
+	},
+	{
 		"name": "Eaglercraft 1.8.8",
 		"image": "cover.svg",
 		"directory": "eg1.8",
