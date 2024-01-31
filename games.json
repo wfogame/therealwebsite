@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Eaglercraft Reborn",
+		"image": "cover.svg",
+		"directory": "reborn",
+		"recommended": "1"
+	},
+	{
 		"name": "UwU Client",
 		"image": "cover.svg",
 		"directory": "uwu",
