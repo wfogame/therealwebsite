@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Kerosene Client",
+		"image": "cover.svg",
+		"directory": "kero",
+		"recommended": "1"
+	},
+	{
 		"name": "OddFuture Client",
 		"image": "cover.svg",
 		"directory": "future",
