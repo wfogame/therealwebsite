@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Demon Client",
+		"image": "cover.svg",
+		"directory": "demon",
+		"recommended": "1"
+	},
+	{
 		"name": "Eternal Client",
 		"image": "cover.svg",
 		"directory": "etern",
