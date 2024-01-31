@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Nit Client",
+		"image": "cover.svg",
+		"directory": "nit",
+		"recommended": "1"
+	},
+	{
 		"name": "Kerosene Client",
 		"image": "cover.svg",
 		"directory": "kero",
