@@ -1,5 +1,29 @@
 [
 	{
+		"name": "Recoil",
+		"image": "cover.svg",
+		"directory": "recoil",
+		"recommended": "1"
+	},
+	{
+		"name": "Karlson't",
+		"image": "cover.svg",
+		"directory": "karl",
+		"recommended": "1"
+	},
+	{
+		"name": "Deepest Sword",
+		"image": "cover.svg",
+		"directory": "deepest",
+		"recommended": "1"
+	},
+	{
+		"name": "Tomb of The Mask",
+		"image": "cover.svg",
+		"directory": "tomb",
+		"recommended": "1"
+	},
+	{
 		"name": "Hill Climb Racing",
 		"image": "cover.svg",
 		"directory": "hill",
