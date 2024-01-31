@@ -1,5 +1,11 @@
 [
 	{
+		"name": "MEGA Client",
+		"image": "cover.svg",
+		"directory": "mega",
+		"recommended": "1"
+	},
+	{
 		"name": "Water Client",
 		"image": "cover.svg",
 		"directory": "water",
