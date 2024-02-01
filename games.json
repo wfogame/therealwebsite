@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Slither.io Math Edition",
+		"image": "cover.svg",
+		"directory": "math",
+		"recommended": "1"
+	},
+	{
 		"name": "Redball 1",
 		"image": "cover.svg",
 		"directory": "redball",
