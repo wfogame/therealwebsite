@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Redball 1",
+		"image": "cover.svg",
+		"directory": "redball",
+		"recommended": "1"
+	},
+	{
 		"name": "Eaglercraft Beta 1.7",
 		"image": "cover.svg",
 		"directory": "17",
