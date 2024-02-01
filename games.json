@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Minecraft Demo in Three.js",
+		"image": "cover.svg",
+		"directory": "mcdemo",
+		"recommended": "1"
+	},
+	{
 		"name": "Slither.io Math Edition",
 		"image": "cover.svg",
 		"directory": "math",
