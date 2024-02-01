@@ -8,7 +8,7 @@
 	{
 		"name": "Karlson't",
 		"image": "cover.svg",
-		"directory": "karl",
+		"directory": "karlsont",
 		"recommended": "1"
 	},
 	{
@@ -20,31 +20,31 @@
 	{
 		"name": "Tomb of The Mask",
 		"image": "cover.svg",
-		"directory": "tomb",
+		"directory": "tombofthemask",
 		"recommended": "1"
 	},
 	{
 		"name": "Hill Climb Racing",
 		"image": "cover.svg",
-		"directory": "hill",
+		"directory": "hillclimbracing",
 		"recommended": "1"
 	},
 	{
 		"name": "Gladihoppers",
 		"image": "cover.svg",
-		"directory": "gladi",
+		"directory": "gladihoppers",
 		"recommended": "1"
 	},
 	{
 		"name": "3kh0 v4",
 		"image": "cover.svg",
-		"directory": "v4",
+		"directory": "3kh0v4",
 		"recommended": "1"
 	},
 	{
 		"name": "Flappy Copter",
 		"image": "cover.svg",
-		"directory": "flap",
+		"directory": "flappycopter",
 		"recommended": "1"
 	},
 	{
@@ -56,7 +56,7 @@
 	{
 		"name": "Eaglercraft 1.5.2 Service Pack 1",
 		"image": "cover.svg",
-		"directory": "sp1",
+		"directory": "mc-sp1",
 		"recommended": "1"
 	},
 	{
@@ -74,7 +74,7 @@
 	{
 		"name": "Kick That Buddy",
 		"image": "cover.svg",
-		"directory": "kick",
+		"directory": "kickthatbuddy",
 		"recommended": "1"
 	},
 	{
@@ -92,19 +92,13 @@
 	{
 		"name": "Grand Truckismo",
 		"image": "cover.svg",
-		"directory": "grand",
+		"directory": "grandtruckismo",
 		"recommended": "1"
 	},
 	{
 		"name": "Turbo Racing 3",
 		"image": "cover.svg",
-		"directory": "race",
-		"recommended": "1"
-	},
-	{
-		"name": "Eggycar",
-		"image": "cover.svg",
-		"directory": "eggycar",
+		"directory": "turboracing3",
 		"recommended": "1"
 	},
 	{
@@ -114,21 +108,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Offroad Online",
-		"image": "cover.svg",
-		"directory": "off",
-		"recommended": "1"
-	},
-	{
-		"name": "Gun Spin",
-		"image": "cover.svg",
-		"directory": "gunspin",
-		"recommended": "1"
-	},
-	{
 		"name": "Gun Knight",
 		"image": "cover.svg",
-		"directory": "gun",
+		"directory": "grandtruckismo",
 		"recommended": "1"
 	},
 	{
@@ -138,21 +120,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "sb2 to swf",
-		"image": "cover.svg",
-		"directory": "sb2toswf",
-		"recommended": "1"
-	},
-	{
 		"name": "The Oregon Trail",
 		"image": "cover.svg",
 		"directory": "oregon",
-		"recommended": "1"
-	},
-	{
-		"name": "Scratch 1",
-		"image": "cover.svg",
-		"directory": "scratch1",
 		"recommended": "1"
 	},
 	{
@@ -162,39 +132,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "New Grounds",
+		"name": "Windows 98",
 		"image": "cover.svg",
-		"directory": "ng",
-		"recommended": "1"
-	},
-	{
-		"name": "Jewels Breaker Puzzle:Brick breaker challenge For PC (Windows & MAC)",
-		"image": "cover.svg",
-		"directory": "jewel",
-		"recommended": "1"
-	},
-	{
-		"name": "Simcity Build:IT",
-		"image": "cover.svg",
-		"directory": "simcity",
-		"recommended": "1"
-	},
-	{
-		"name": "VMware Workstation Pro 9",
-		"image": "cover.svg",
-		"directory": "vm",
-		"recommended": "1"
-	},
-	{
-		"name": "Win 98",
-		"image": "cover.svg",
-		"directory": "98",
-		"recommended": "1"
-	},
-	{
-		"name": "Advanced Terrain Demo",
-		"image": "cover.svg",
-		"directory": "demo",
+		"directory": "windows98",
 		"recommended": "1"
 	},
 	{
@@ -204,15 +144,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Rabbit Rescue",
-		"image": "cover.svg",
-		"directory": "rabbit",
-		"recommended": "1"
-	},
-	{
 		"name": "Creeper Craft",
 		"image": "cover.svg",
-		"directory": "creeper",
+		"directory": "creepercraft",
 		"recommended": "1"
 	},
 	{
@@ -246,12 +180,6 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Sonic Tetris",
-		"image": "cover.svg",
-		"directory": "sonicte",
-		"recommended": "1"
-	},
-	{
 		"name": "Super Mario 63",
 		"image": "cover.svg",
 		"directory": "mario63",
@@ -261,12 +189,6 @@
 		"name": "Roblox",
 		"image": "cover.svg",
 		"directory": "roblox",
-		"recommended": "1"
-	},
-	{
-		"name": "GTA 3",
-		"image": "cover.svg",
-		"directory": "gta3",
 		"recommended": "1"
 	},
 	{
@@ -288,18 +210,6 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Half Life 2",
-		"image": "cover.svg",
-		"directory": "hl2",
-		"recommended": "1"
-	},
-	{
-		"name": "Flash Flappy Bird",
-		"image": "cover.svg",
-		"directory": "flashflappy",
-		"recommended": "1"
-	},
-	{
 		"name": "Gloom",
 		"image": "cover.svg",
 		"directory": "gloom",
@@ -312,39 +222,15 @@
 		"recommended": "1"
 	},
 	{
-		"name": "π Client",
-		"image": "cover.svg",
-		"directory": "pi",
-		"recommended": "1"
-	},
-	{
 		"name": "Precision Client",
 		"image": "cover.svg",
 		"directory": "pre",
 		"recommended": "1"
 	},
 	{
-		"name": "Shadow Client",
-		"image": "cover.svg",
-		"directory": "shadow",
-		"recommended": "1"
-	},
-	{
-		"name": "Windows XP",
-		"image": "cover.svg",
-		"directory": "xp",
-		"recommended": "1"
-	},
-	{
 		"name": "Dragon Client",
 		"image": "cover.svg",
 		"directory": "drag",
-		"recommended": "1"
-	},
-	{
-		"name": "Ayuncraft 1.5.2",
-		"image": "cover.svg",
-		"directory": "ayun",
 		"recommended": "1"
 	},
 	{
@@ -420,21 +306,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Bubble Shooter",
-		"image": "cover.svg",
-		"directory": "bubbleshooter",
-		"recommended": "1"
-	},
-	{
 		"name": "Pong",
 		"directory": "pong",
 		"image": "cover.svg",
-		"recommended": "1"
-	},
-	{
-		"name": "Flappy Plane",
-		"directory": "flappyplane",
-		"image": "favicon.ico",
 		"recommended": "1"
 	},
 	{
