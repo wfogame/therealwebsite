@@ -78,18 +78,6 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Codercraft",
-		"image": "cover.svg",
-		"directory": "codercraft",
-		"recommended": "1"
-	},
-	{
-		"name": "Nebula Client",
-		"image": "cover.svg",
-		"directory": "nebula",
-		"recommended": "1"
-	},
-	{
 		"name": "Grand Truckismo",
 		"image": "cover.svg",
 		"directory": "grand",
@@ -312,33 +300,9 @@
 		"recommended": "1"
 	},
 	{
-		"name": "π Client",
-		"image": "cover.svg",
-		"directory": "pi",
-		"recommended": "1"
-	},
-	{
-		"name": "Precision Client",
-		"image": "cover.svg",
-		"directory": "pre",
-		"recommended": "1"
-	},
-	{
-		"name": "Shadow Client",
-		"image": "cover.svg",
-		"directory": "shadow",
-		"recommended": "1"
-	},
-	{
 		"name": "Windows XP",
 		"image": "cover.svg",
 		"directory": "xp",
-		"recommended": "1"
-	},
-	{
-		"name": "Dragon Client",
-		"image": "cover.svg",
-		"directory": "drag",
 		"recommended": "1"
 	},
 	{
@@ -363,12 +327,6 @@
 		"name": "Spank the Monkey",
 		"image": "cover.svg",
 		"directory": "spankthemonkey",
-		"recommended": "1"
-	},
-	{
-		"name": "CMM Client",
-		"image": "cover.svg",
-		"directory": "cmm-client",
 		"recommended": "1"
 	},
 	{
@@ -429,17 +387,6 @@
 		"name": "A Dance of Fire & Ice",
 		"directory": "adofai",
 		"image": "icon.png",
-		"recommended": "1"
-	},
-	{
-		"name": "Resent Client",
-		"directory": "online-mc",
-		"image": "logo.png"
-	},
-	{
-		"name": "Eaglercraft 1.5.2 RTM",
-		"directory": "offline-mc",
-		"image": "logo.png",
 		"recommended": "1"
 	},
 	{
