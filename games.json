@@ -1,11 +1,5 @@
 [
 	{
-		"name": "Minecraft Demo in Three.js",
-		"image": "cover.svg",
-		"directory": "mcdemo",
-		"recommended": "1"
-	},
-	{
 		"name": "Slither.io Math Edition",
 		"image": "cover.svg",
 		"directory": "math",
@@ -15,90 +9,6 @@
 		"name": "Redball 1",
 		"image": "cover.svg",
 		"directory": "redball",
-		"recommended": "1"
-	},
-	{
-		"name": "Eaglercraft Beta 1.7",
-		"image": "cover.svg",
-		"directory": "17",
-		"recommended": "1"
-	},
-	{
-		"name": "Eaglercraft Beta 1.3",
-		"image": "cover.svg",
-		"directory": "beta",
-		"recommended": "1"
-	},
-	{
-		"name": "N0VA Client",
-		"image": "cover.svg",
-		"directory": "nova",
-		"recommended": "1"
-	},
-	{
-		"name": "MEGA Client",
-		"image": "cover.svg",
-		"directory": "mega",
-		"recommended": "1"
-	},
-	{
-		"name": "Water Client",
-		"image": "cover.svg",
-		"directory": "water",
-		"recommended": "1"
-	},
-	{
-		"name": "Demon Client",
-		"image": "cover.svg",
-		"directory": "demon",
-		"recommended": "1"
-	},
-	{
-		"name": "Eternal Client",
-		"image": "cover.svg",
-		"directory": "etern",
-		"recommended": "1"
-	},
-	{
-		"name": "Flame Client",
-		"image": "cover.svg",
-		"directory": "flame",
-		"recommended": "1"
-	},
-	{
-		"name": "Nit Client",
-		"image": "cover.svg",
-		"directory": "nit",
-		"recommended": "1"
-	},
-	{
-		"name": "Kerosene Client",
-		"image": "cover.svg",
-		"directory": "kero",
-		"recommended": "1"
-	},
-	{
-		"name": "OddFuture Client",
-		"image": "cover.svg",
-		"directory": "future",
-		"recommended": "1"
-	},
-	{
-		"name": "Eaglercraft Reborn",
-		"image": "cover.svg",
-		"directory": "reborn",
-		"recommended": "1"
-	},
-	{
-		"name": "UwU Client",
-		"image": "cover.svg",
-		"directory": "uwu",
-		"recommended": "1"
-	},
-	{
-		"name": "Eaglercraft 1.8.8",
-		"image": "cover.svg",
-		"directory": "eg1.8",
 		"recommended": "1"
 	},
 	{
@@ -441,18 +351,6 @@
 		"name": "Dragon Client",
 		"image": "cover.svg",
 		"directory": "drag",
-		"recommended": "1"
-	},
-	{
-		"name": "Ayuncraft 1.5.2",
-		"image": "cover.svg",
-		"directory": "ayun",
-		"recommended": "1"
-	},
-	{
-		"name": "Minecraft Infdev",
-		"image": "cover.svg",
-		"directory": "inf",
 		"recommended": "1"
 	},
 	{
@@ -1714,11 +1612,6 @@
 		"name": "Cubefield",
 		"directory": "cubefield",
 		"image": "assets/unnamed.png"
-	},
-	{
-		"name": "Minecraft Classic",
-		"directory": "mcclassic",
-		"image": "assets/textures/previews/2.png"
 	},
 	{
 		"name": "Bit Planes",
