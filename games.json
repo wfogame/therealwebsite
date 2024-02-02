@@ -1,11 +1,5 @@
 [
 	{
-		"name": "Eaglercraft Games",
-		"image": "cover.svg",
-		"directory": "eaglercraft",
-		"recommended": "1"
-	},
-	{
 		"name": "Recoil",
 		"image": "cover.svg",
 		"directory": "recoil",
@@ -54,6 +48,24 @@
 		"recommended": "1"
 	},
 	{
+		"name": "Eaglercraft 1.12.2",
+		"image": "cover.svg",
+		"directory": "eg1.12.2",
+		"recommended": "1"
+	},
+	{
+		"name": "Eaglercraft 1.5.2 Service Pack 1",
+		"image": "cover.svg",
+		"directory": "mc-sp1",
+		"recommended": "1"
+	},
+	{
+		"name": "Ayuncraft",
+		"image": "cover.svg",
+		"directory": "ayun",
+		"recommended": "1"
+	},
+	{
 		"name": "FlashGL Demo",
 		"image": "cover.svg",
 		"directory": "flashgl",
@@ -63,6 +75,12 @@
 		"name": "Kick That Buddy",
 		"image": "cover.svg",
 		"directory": "kickthatbuddy",
+		"recommended": "1"
+	},
+	{
+		"name": "Codercraft",
+		"image": "cover.svg",
+		"directory": "codercraft",
 		"recommended": "1"
 	},
 	{
@@ -210,6 +228,12 @@
 		"recommended": "1"
 	},
 	{
+		"name": "Minecraft Infdev",
+		"image": "cover.svg",
+		"directory": "inf",
+		"recommended": "1"
+	},
+	{
 		"name": "Minesweeper",
 		"image": "cover.svg",
 		"directory": "minesweeper",
@@ -285,6 +309,17 @@
 		"name": "A Dance of Fire & Ice",
 		"directory": "adofai",
 		"image": "icon.png",
+		"recommended": "1"
+	},
+	{
+		"name": "Resent Client",
+		"directory": "online-mc",
+		"image": "logo.png"
+	},
+	{
+		"name": "Eaglercraft 1.5.2 RTM",
+		"directory": "offline-mc",
+		"image": "logo.png",
 		"recommended": "1"
 	},
 	{
@@ -1445,6 +1480,11 @@
 		"name": "Cubefield",
 		"directory": "cubefield",
 		"image": "assets/unnamed.png"
+	},
+	{
+		"name": "Minecraft Classic",
+		"directory": "mcclassic",
+		"image": "assets/textures/previews/2.png"
 	},
 	{
 		"name": "Bit Planes",
