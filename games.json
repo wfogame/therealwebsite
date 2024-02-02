@@ -66,24 +66,6 @@
 		"recommended": "1"
 	},
 	{
-		"name": "Eaglercraft 1.12.2",
-		"image": "cover.svg",
-		"directory": "eg1.12.2",
-		"recommended": "1"
-	},
-	{
-		"name": "Eaglercraft 1.5.2 Service Pack 1",
-		"image": "cover.svg",
-		"directory": "sp1",
-		"recommended": "1"
-	},
-	{
-		"name": "Ayuncraft",
-		"image": "cover.svg",
-		"directory": "ayun",
-		"recommended": "1"
-	},
-	{
 		"name": "FlashGL Demo",
 		"image": "cover.svg",
 		"directory": "flashgl",
