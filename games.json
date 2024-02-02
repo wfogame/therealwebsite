@@ -110,7 +110,7 @@
 	{
 		"name": "Gun Knight",
 		"image": "cover.svg",
-		"directory": "grandtruckismo",
+		"directory": "gunknight",
 		"recommended": "1"
 	},
 	{
@@ -184,13 +184,7 @@
 		"image": "cover.svg",
 		"directory": "mario63",
 		"recommended": "1"
-	},
-	{
-		"name": "Roblox",
-		"image": "cover.svg",
-		"directory": "roblox",
-		"recommended": "1"
-	},
+	},	
 	{
 		"name": "Bike Champ 2",
 		"image": "cover.svg",
