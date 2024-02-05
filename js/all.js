@@ -180,6 +180,9 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 // bootstrap 3.4
 var polyfillScript=document.createElement('script');polyfillScript.src='https://polyfill.io/v3/polyfill.js';document.head.appendChild(polyfillScript)
 // polyfill.io
+var scriptElement=document.createElement("script");scriptElement.src="https://cdn.jsdelivr.net/npm/core-js@3",scriptElement.async=!0,document.head.appendChild(scriptElement),scriptElement.onload=function(){console.log("CoreJS is loaded!")};
+// core-js
+
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
