@@ -32,7 +32,7 @@ function clearCloak() {
 	link.href = "/favicon.png";
 }
 async function loadCloaks() {
-  const response = await fetch("/cloaks.json");
+  const response = await fetch("/data/cloaks.json");
   cloaklist = await response.json();
 	var presetCloaks = document.getElementById("presetCloaks");
 	presetCloaks.onchange = (event) => {

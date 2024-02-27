@@ -8,8 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
     
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
-     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+
 
 
 
@@ -25,7 +24,8 @@
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       new Crate({
           server: '1148719137238040606', // Selenite
-          channel: '1173731814196645909' // #commands
+          channel: '1173731814196645909', // #commands
+          color: getComputedStyle(document.body).getPropertyValue("--uibg")
       })
     </script>
 
@@ -38,23 +38,17 @@
 
     <!-- toastify -->
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const dialog = document.querySelector('.dialog-width');
-      const input = dialog.querySelector('sl-input');
-      const openButton = dialog.nextElementSibling;
-      const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-      setTimeout(() => {
-        dialog.show();
-      }, 200)
-      
-    });
+      $.getJSON("/data/games.json", (data) => {
+        for(let i = 0;i < data.length;i++) {
+          if(location.pathname.includes(data[i]["directory"])) {
+            location.href = "/semag/" + data[i]["directory"] + "/index.html"
+          }
+        }
+      })
     </script>
   </head>
   <alerts>
-    <sl-dialog label="Page not found!" class="dialog-width" style="--width: 60vw;">
-      Oops! Looks like you found a page that doesn't exist! If you found this from regular website usage, then please <a href="/support.html">report a bug</a>!
-      <sl-button slot="footer" variant="neutral">Close</sl-button>
-    </sl-dialog>
+
   </alerts>
   <body id="noscroll">
     <header>
@@ -62,22 +56,24 @@
       <a href="/bookmarklets.html">Bookmarklets</a>
       <a href="/projects.html">Games</a>
       <a href="/settings.html">Settings</a>
-      <a href="/support.html">Support</a>
       <a id="blank" href="#">Open Blank</a>
-      <a href="/about.html">About</a>
+      <div id="status">
+        <p id="time">00:00 AM</p>
+      </div>
     </header>
     <main id="main" class="noscroll">
-
+      <h1>Page not found!</h1>
+      <p>We could not find this page.</p>
+      <a href="/index.html">Go home</a>
     </main>
     
     <footer class="noscroll">
-      <a href="https://codeberg.org/skysthelimitt/selenite">Source Code</a>
-      <a id="panicmode">Panic Mode</a>
-      <a href="/transfer.html">Transfer your data</a>
-      <a href="/suggest.html">Bug Reports</a>
+      <a href="https://codeberg.org/skysthelimitt/selenite">Source</a>
       <a href="https://discord.gg/7jyufnwJNf">Discord</a>
-      <a href="/suggest.html">Suggestions</a>
+      <a href="/suggest.html">Suggestions & Bugs</a>
       <a href="/contact.html">Contact</a>
+      <a href="/support.html">Donate</a>
+      <a href="/about.html">About</a>
     </footer>
     
   </body>

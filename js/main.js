@@ -1,16 +1,6 @@
 var interval;
-function check() {
-}
-
 document.addEventListener("DOMContentLoaded", function () {
-	if (document.querySelectorAll("[id=adcontainer]")) {
-		for (let i = 0; i < document.querySelectorAll("[id=adcontainer]").length; i++) {
-			if (Math.random() < 0.5 || localStorage.getItem("selenite.adblock") == "true") document.querySelectorAll("[id=adcontainer]")[i].innerHTML = "";
-		}
-	}
-	const iconSetting = document.querySelector("input#discordIcon");
-	const blockClose = document.querySelector("input#blockClose");
-	const openBlank = document.getElementById("blank");
+	initTime();
 	if (localStorage.getItem("theme")) {
 		localStorage.setItem("selenite.theme", localStorage.getItem("theme"));
 		localStorage.removeItem("theme");
@@ -20,6 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	} else {
 		document.body.setAttribute("theme", "main");
 	}
+	if (document.querySelectorAll("[id=adcontainer]")) {
+		for (let i = 0; i < document.querySelectorAll("[id=adcontainer]").length; i++) {
+			if (Math.random() < 0.5 || localStorage.getItem("selenite.adblock") == "true") document.querySelectorAll("[id=adcontainer]")[i].innerHTML = "";
+		}
+	}
+	const iconSetting = document.querySelector("input#discordIcon");
+	const blockClose = document.querySelector("input#blockClose");
+	const openBlank = document.getElementById("blank");
 	if (document.querySelector("widgetbot-crate")) {
 		if (localStorage.getItem("selenite.discordIcon") == "true") {
 			const widget = document.querySelector("widgetbot-crate");
@@ -50,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			localStorage.setItem("selenite.tabDisguise", tabDisguise.checked);
 		});
 	}
-
 	document.getElementById("blank").addEventListener("click", () => {
 		win = window.open();
 		win.document.body.style.margin = "0";
@@ -63,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		location.href = "https://google.com";
 		close();
 	});
-	checkAlert();
 	if ($("#panicmode").length > 0) {
 		$("#panicmode").prop({ href: panicurl });
 	}
@@ -71,25 +67,19 @@ document.addEventListener("DOMContentLoaded", function () {
 		$.get("https://raw.githubusercontent.com/skysthelimitt/selenite-optimized/main/build/bookmark.txt", function (data) {
 			$(".seleniteminified").prop({ href: data });
 		});
-		$.get("https://raw.githubusercontent.com/car-axle-client/car-axle-client/v8.1/dist/build.js", function (data) {
+		$.get("https://raw.githubusercontent.com/car-axle-client/car-axle-client/v9/dist/build.js", function (data) {
 			$(".caraxle").prop({ href: `javascript:${encodeURI(data)}` });
 		});
 	}
-});
-
-function checkAlert() {
-	if (!Cookies.get("supportalert")) {
-		const dialog = document.querySelector(".dialog-width");
-		const openButton = dialog.nextElementSibling;
-		const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-		setTimeout(() => {
-			dialog.removeAttribute("display");
-			dialog.show();
-		}, 250);
-		closeButton.addEventListener("click", () => dialog.hide());
-		Cookies.set("supportalert", true, { expires: 60 });
+	if(document.body) {
+		for(let i = 0;i<10;i++) {
+			setTimeout(() => {
+				crate.options.color = getComputedStyle(document.body).getPropertyValue("--uibg");
+			}, 100)
+		}
 	}
-}
+
+});
 function setPanicMode() {
 	if (!$("#panic").val().startsWith("https")) {
 		document.cookie = "panicurl=https://" + $("#panic").val();
@@ -98,12 +88,10 @@ function setPanicMode() {
 
 	document.cookie = "panicurl=" + $("#panic").val();
 }
-
 function copyToClipboard(text) {
 	navigator.clipboard.writeText(text);
 	alert("Copied text!");
 }
-
 function setTheme(theme) {
 	localStorage.setItem("selenite.theme", theme);
 	document.body.setAttribute("theme", theme);
@@ -127,3 +115,26 @@ function delPassword() {
 	localStorage.removeItem("selenite.passwordAtt");
 	localStorage.removeItem("selenite.password");
 }
+
+function initTime() {
+	setInterval(() => {
+		let date = new Date();
+		let options = localStorage.getItem("selenite.timeFormat")
+			? JSON.parse(localStorage.getItem("selenite.timeFormat"))
+			: {
+					hour: "2-digit",
+					minute: "2-digit",
+					hour12: true,
+			  };
+		let time = date.toLocaleTimeString([], options);
+		document.getElementById("time").innerText = time;
+	}, 100);
+}
+
+let cookieConsentScript = document.createElement("script");
+cookieConsentScript.src = "/js/cookieConsent.js";
+document.head.appendChild(cookieConsentScript);
+let cookieConsentStyle = document.createElement("link");
+cookieConsentStyle.href = "/js/cookieConsent.css";
+cookieConsentStyle.rel = "stylesheet";
+document.head.appendChild(cookieConsentStyle);
