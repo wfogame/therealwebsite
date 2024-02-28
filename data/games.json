@@ -1408,5 +1408,50 @@
 		"name": "Idle Research",
 		"directory": "idleresearch",
 		"image": "cover-1660205761867.png"
+	},
+	{
+		"name": "10 Minutes Till Dawn",
+		"directory": "10minutestilldawn",
+		"image": "splash.png"
+	},
+	{
+		"name": "Friday Night Funkin: Mid Fight Masses",
+		"directory": "fnfmidfight",
+		"image": "fnfmidfight.png"
+	},
+	{
+		"name": "Papas Donuteria",
+		"directory": "papasdonuteria",
+		"image": "papasdonuteria.png"
+	},
+	{
+		"name": "Papas Pancakeria",
+		"directory": "papaspancakeria",
+		"image": "papaspancakeria.png"
+	},
+	{
+		"name": "Papas Scooperia",
+		"directory": "papasscooperia",
+		"image": "papasscooperia.png"
+	},
+	{
+		"name": "Papas Tacomia",
+		"directory": "papastacomia",
+		"image": "papastacomia.png"
+	},
+	{
+		"name": "Territorial.io",
+		"directory": "territorialio",
+		"image": "territorialio.png"
+	},
+	{
+		"name": "Theme Hotel",
+		"directory": "themehotel",
+		"image": "themehotel.png"
+	},
+	{
+		"name": "Thumb Fighter",
+		"directory": "thumbfighter",
+		"image": "thumbfighter.png"
 	}
 ]
