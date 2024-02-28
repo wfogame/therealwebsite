@@ -1453,5 +1453,10 @@
 		"name": "Thumb Fighter",
 		"directory": "thumbfighter",
 		"image": "thumbfighter.png"
+	},
+	{
+		"name": "The Enchanted Cave 2",
+		"directory": "enchantedcave2",
+		"image": "icon.png"
 	}
 ]

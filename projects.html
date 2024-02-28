@@ -116,6 +116,8 @@
 					</div></a
 				>
 				<p id="message">games loading..</p>
+				<p id="message">games not loading? click ctrl + shift + r</p>
+				<button id="message" onclick='$.getJSON("/data/games.json", function (data) {loadGames(data)})'>Games not loading? Click here.</button>
 			</div>
 			<div id="adcontainer">
 				<script type="text/javascript" src="//snailthreatenedinvited.com/f9/78/06/f97806fd0f338057a67abb4e5e710970.js"></script>
@@ -133,13 +135,6 @@
 		</footer>
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
-				if (Math.random() < 0.1 && localStorage.getItem("selenite.adblock") != "true") {
-					let popunder = document.createElement("script");
-					popunder.src = "//snailthreatenedinvited.com/6e/cd/f3/6ecdf31757f29a5aea10c063c283af9b.js";
-					popunder.type = "text/javascript";
-					document.body.appendChild(popunder);
-					document.getElementById("popunder").style.display = "block";
-				}
 				const adContainers = document.querySelectorAll("[id=adcontainer]");
 				if (adContainers.length > 0) {
 					for (let i = 0; i < adContainers.length; i++) {
