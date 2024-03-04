@@ -99,16 +99,10 @@ document.addEventListener(
 	},
 	false
 );
-if (location.pathname.substring(1).includes("/") && localStorage.getItem("selenite.blockClose") == "true") {
-	window.addEventListener(
-		"beforeunload",
-		(e) => {
-			e.preventDefault();
-			e.returnValue = "";
-			return "no";
-		},
-		true
-	);
+if (location.pathname.substring(1).includes("semag") && localStorage.getItem("selenite.blockClose") == "true") {
+	window.onbeforeunload = function () {
+		return "";
+	};
 }
 addEventListener("visibilitychange", (e) => {
 	if (localStorage.getItem("selenite.tabDisguise") == "true") {
