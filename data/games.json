@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Destruction Carnival",
+		"image": "cover.svg",
+		"directory": "dc"
+	},
+	{
 		"name": "Frontier 1337",
 		"image": "cover.svg",
 		"directory": "1337"
