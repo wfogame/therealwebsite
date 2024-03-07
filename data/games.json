@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Ginett-O-Matic",
+		"image": "cover.svg",
+		"directory": "gin"
+	},
+	{
 		"name": "Ju&Ju Adventure",
 		"image": "cover.svg",
 		"directory": "juju"
