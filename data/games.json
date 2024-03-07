@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Drift Mania",
+		"image": "cover.svg",
+		"directory": "drift"
+	},
+	{
 		"name": "Dashy Reaper",
 		"image": "cover.svg",
 		"directory": "dashy"
