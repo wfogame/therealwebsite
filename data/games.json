@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Dashy Reaper",
+		"image": "cover.svg",
+		"directory": "dashy"
+	},
+	{
 		"name": "Driving Force 4",
 		"image": "cover.svg",
 		"directory": "driving"
