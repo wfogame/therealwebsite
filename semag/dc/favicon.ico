@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+
+		<link rel="dns-prefetch" href="//portal.cdn.yollamedia.com">
+	<link rel="preconnect" href="//portal.cdn.yollamedia.com">
+	<script src="//portal.cdn.yollamedia.com/storage/tag/ps0b7fddd023fdd7348aa1890c177f067d0ff75425.js"></script>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Je crée sur mon temps libre les jeux auxquels j'aurais aimé jouer quand j'étais plus jeune. Venez participer à cette aventure : jouez et partagez !">
+	<meta name="keywords" content="txori,jeux,indépendant,indie,basque,dragon,ball,devolution,unblocked,baston,omeganaut">
+	<meta name="author" content="Txori">
+
+
+	<meta property="og:type" content="blog">
+	<meta property="og:url" content="//www.txori.com/data/documents/dc//favicon.ico">
+	<meta property="og:title" content="Txori">
+	<meta property="og:description" content="Je crée sur mon temps libre les jeux auxquels j'aurais aimé jouer quand j'étais plus jeune. Venez participer à cette aventure : jouez et partagez !">
+	<meta property="og:site_name" content="Txori">
+	<meta property="og:image" content="https://www.txori.com/data/themes/txori/img/txori_share.png">
+
+	<meta property="fb:admins" content="540361590">
+	<meta property="fb:moderator" content="540361590">
+	<meta property="fb:app_id" content="408816169190797">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@txoricom">
+	<meta name="twitter:creator" content="@txoricom">
+	<meta name="twitter:title" content="Txori">
+	<meta name="twitter:description" content="Je crée sur mon temps libre les jeux auxquels j'aurais aimé jouer quand j'étais plus jeune. Venez participer à cette aventure : jouez et partagez !">
+	<meta name="twitter:image" content="https://www.txori.com/data/themes/txori/img/txori_share.png">
+
+	<meta name="theme-color" content="#333">
+
+	<link rel="icon" type="image/png" href="//www.txori.com/data/themes/txori/img/icon.svg">
+	<link rel="apple-touch-icon" type="image/png" href="//www.txori.com/data/themes/txori/img/icon.svg">
+
+	<link rel="stylesheet" href="//www.txori.com/data/system/fontawesome/6.2.1/css/fontawesome.min.css" >
+	<link rel="stylesheet" href="//www.txori.com/data/system/fontawesome/6.2.1/css/regular.min.css">
+	<link rel="stylesheet" href="//www.txori.com/data/system/fontawesome/6.2.1/css/solid.min.css">
+
+	<script async src="//www.w3counter.com/tracker.js?id=148189"></script>
+
+	<title>Txori</title>
+
+	<link rel="stylesheet" type="text/css" href="https://www.txori.com/data/themes/txori/css/style.css?id=1695488550" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://www.txori.com/data/themes/txori/css/fusion.css?id=1701258407" media="screen">
+	
+		<link rel="alternate" type="application/rss+xml" title="ARTICLES_RSS_FEEDS" href="https://www.txori.com/feed/rss">
+
+</head>
+
+<body>
+
+
+<div id="header">
+
+	<div id="title">
+		<a href="//www.txori.com"><img class="logo" src="//www.txori.com/data/themes/txori/img/txori.svg" alt="txori" width="200" height="156"></a>
+		<div class="social">
+			<a href="//ko-fi.com/txori" target="_blank"><img class="social" src="//www.txori.com/data/themes/txori/img/kofi.svg" alt="Ko-fi" title="Help Txori stay free ❤" width="32" height="32"></a>
+			<a href="//twitter.com/TxoriCom" target="_blank"><img class="social" src="//www.txori.com/data/themes/txori/img/twitter.svg" alt="Twitter" title="Follow Txori on Twitter" width="32" height="32"></a>
+			<a href="//www.facebook.com/Txori.com/" target="_blank"><img class="social" src="//www.txori.com/data/themes/txori/img/facebook.svg" alt="Facebook" title="Follow Txori on Facebook" width="32" height="32"></a>
+			<a href="//www.youtube.com/@TxoriCom" target="_blank"><img class="social" src="//www.txori.com/data/themes/txori/img/youtube.svg" alt="Youtube" title="Watch Txori on Youtube" width="32" height="32"></a>
+		</div>
+					<div id="registerbutton" class="button"><a href="//www.txori.com/forum/register.php">Create your account</a></div>
+			</div>
+	
+	<div id="nav">
+		<a href="//www.txori.com/jeux"><i class="fa-solid fa-gamepad"></i>Games</a>
+		<a href="//www.txori.com/blog"><i class="fa-solid fa-layer-group"></i>Devblog</a>
+		<a href="//www.txori.com/forum/"><i class="fa-solid fa-comment-alt"></i>Forum</a>
+		<a href="//www.txori.com/faq"><i class="fa-solid fa-question-circle"></i>FAQ</a>
+		<a href="//www.txori.com/forum/search.php" title="Search" aria-label="Search"><i class="fa-solid fa-search"></i></a>
+							<a href="//www.txori.com/forum/login.php"><i class="fa-solid fa-sign-in-alt"></i>Login</a>
+			</div>
+
+	<div id="navfloat">
+		<a href="//www.txori.com/jeux"><i class="fa-solid fa-gamepad"></i></a>
+		<a href="//www.txori.com/blog"><i class="fa-solid fa-layer-group"></i></a>
+		<a href="//www.txori.com/forum/"><i class="fa-solid fa-comment-alt"></i></a>
+		<a href="//www.txori.com/faq"><i class="fa-solid fa-question-circle"></i></a>
+		<a href="//www.txori.com/forum/search.php"><i class="fa-solid fa-search"></i></a>
+						<a href="#header">&#9650;</a>
+	</div>
+	
+</div>
+<br>
+	<div id="section">
+
+		<div class="static-content"><div class="static-box center">
+<h1>BIENVENUE SUR TXORI</h1><p class="center">( ça se prononce /´tʃo.ɾi/ )</p><p class="center">Je crée sur mon temps libre les jeux auxquels j'aurais aimé jouer quand j'étais plus jeune.<br>Venez participer à cette aventure : jouez et partagez !</p>
+</div>
+
+<div class="static-box">
+
+<h2><i class="fa-solid fa-gamepad"></i>Meilleurs jeux :</h2><br><br>
+
+<div class="center">
+
+<a href="https://www.txori.com/index.php?omeganaut" class="gamecard notranslate"><span class="title">Omeganaut</span><img src="https://www.txori.com/data/images/omeganaut/cover.png" alt="Omeganaut" width="140" height="140" loading="lazy"><span class="icons"><i class="fa-solid fa-download"></i></span></a>
+
+<a href="https://www.txori.com/index.php?dbdevolution" class="gamecard notranslate"><span class="title" style="font-size:.8em">Dragon Ball Devolution</span><img src="https://www.txori.com/data/images/dbz/cover.png" alt="Dragon Ball Devolution" width="140" height="140" loading="lazy"><span class="icons"><i class="fa-solid fa-user-friends"></i></span></a>
+
+<a href="https://www.txori.com/index.php?baston" class="gamecard notranslate"><span class="title">BASTON</span><img src="https://www.txori.com/data/images/baston/cover.png" alt="BASTON" width="140" height="140" loading="lazy"><span class="icons"><i class="fa-solid fa-user-friends"></i><i class="fa-solid fa-download"></i></span></a>
+
+<a href="https://www.txori.com/index.php?dc" class="gamecard notranslate"><span class="title" style="font-size:.8em">❤ Destruction Carnival</span><img src="https://www.txori.com/data/images/dc/cover.png" alt="Knytt" width="140" height="140" loading="lazy"><span class="icons"></span></a>
+
+</div>
+
+<p class="center"><br><a href="https://www.txori.com/jeux">Voir tous les autres jeux <i class="fa-solid fa-circle-chevron-right"></i></a></p>
+</div>
+
+<div class="static-box">
+<h2><i class="fa-solid fa-layer-group"></i>Derniers articles :</h2><br><br>
+
+<div class="center">
+
+<div class="article_preview">
+11 février 2024
+<a href="https://www.txori.com/la-famille-rififi"><img src="https://www.txori.com/data/images/articles/240211.webp" alt="La Famille Rififi" title="Lire : La Famille Rififi" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/la-famille-rififi">La Famille Rififi</a>
+</div>
+
+<div class="article_preview">
+10 janvier 2024
+<a href="https://www.txori.com/renju-of-my-old-age"><img src="https://www.txori.com/data/images/articles/240110.webp" alt="Renju of my old age" title="Lire : Renju of my old age" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/renju-of-my-old-age">Renju of my old age</a>
+</div>
+
+<div class="article_preview">
+27 octobre 2023
+<a href="https://www.txori.com/custom-piskel"><img src="https://www.txori.com/data/images/articles/231027.webp" alt="Custom Piskel" title="Lire : Custom Piskel" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/custom-piskel">Custom Piskel</a>
+</div>
+
+<div class="article_preview">
+18 septembre 2023
+<a href="https://www.txori.com/omegadevolution-qol-bundle"><img src="https://www.txori.com/data/images/articles/230918.webp" alt="OmegaDev QOL Bundle" title="Lire : OmegaDev QOL Bundle" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/omegadevolution-qol-bundle">OmegaDev QOL Bundle</a>
+</div>
+
+<div class="article_preview">
+18 août 2023
+<a href="https://www.txori.com/omegamoulinette"><img src="https://www.txori.com/data/images/articles/230818.webp" alt="Omegamoulinette" title="Lire : Omegamoulinette" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/omegamoulinette">Omegamoulinette</a>
+</div>
+
+<div class="article_preview">
+06 juillet 2023
+<a href="https://www.txori.com/support-natif-du-gamepad"><img src="https://www.txori.com/data/images/articles/230706.webp" alt="Support natif du gamepad" title="Lire : Support natif du gamepad" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/support-natif-du-gamepad">Support natif du gamepad</a>
+</div>
+
+<div class="article_preview">
+14 mai 2023
+<a href="https://www.txori.com/super-hero"><img src="https://www.txori.com/data/images/articles/230514.webp" alt="Super Hero" title="Lire : Super Hero" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/super-hero">Super Hero</a>
+</div>
+
+<div class="article_preview">
+02 février 2023
+<a href="https://www.txori.com/on-a-rattrape-lanime"><img src="https://www.txori.com/data/images/articles/230202.webp" alt="On a rattrapé l&#039;anime !" title="Lire : On a rattrapé l&#039;anime !" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/on-a-rattrape-lanime">On a rattrapé l&#039;anime !</a>
+</div>
+
+<div class="article_preview">
+13 janvier 2023
+<a href="https://www.txori.com/omeganaut-sur-retroid-pocket-3"><img src="https://www.txori.com/data/images/articles/230113.webp" alt="Omeganaut sur Retroid Pocket 3+" title="Lire : Omeganaut sur Retroid Pocket 3+" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/omeganaut-sur-retroid-pocket-3">Omeganaut sur Retroid Pocket 3+</a>
+</div>
+
+<div class="article_preview">
+09 janvier 2023
+<a href="https://www.txori.com/project-kampfer"><img src="https://www.txori.com/data/images/articles/230109.webp" alt="Project: KAMPFER" title="Lire : Project: KAMPFER" class="radius" width="140" height="140" loading="lazy"></a>
+<a href="https://www.txori.com/project-kampfer">Project: KAMPFER</a>
+</div>
+</div>
+
+<p class="center"><br><a href="https://www.txori.com/blog">Lire les autres articles <i class="fa-solid fa-circle-chevron-right"></i></a></p>
+
+</div></div>
+
+	</div>
+
+
+<div id="footer">
+Copyright &copy;2024 - <a href="//www.txori.com/forum/misc.php?action=rules">CGU</a> - <a href="//www.txori.com/">Txori</a>
+</div>
+
+<script>console.log("Support my work, so I can continue making the games you ♡");
+
+
+
+
+</script>
+<div class="a2a_kit a2a_kit_size_50" data-a2a-icon-color="#FF6651" style="position: fixed; bottom:10px; right:10px;"><a class="a2a_dd" href="//www.addtoany.com/share"></a></div>
+<script async src="//static.addtoany.com/menu/page.js"></script>
+
+<script src="https://www.txori.com/data/themes/txori/js/scripts.js?ID=1676398745"></script>
+
+	<script src="https://www.txori.com/data/plugins/kzScrolling/kzScrolling.js" data-media-query="screen and (min-width: 45rem)"></script>
+</body>
+</html>
