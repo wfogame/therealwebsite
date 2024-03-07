@@ -1,5 +1,25 @@
 [
 	{
+		"name": "Drift Mania",
+		"image": "cover.svg",
+		"directory": "drift"
+	},
+	{
+		"name": "Dashy Reaper",
+		"image": "cover.svg",
+		"directory": "dashy"
+	},
+	{
+		"name": "Driving Force 4",
+		"image": "cover.svg",
+		"directory": "driving"
+	},
+	{
+		"name": "Bullet Fury",
+		"image": "cover.svg",
+		"directory": "bulletfury"
+	},
+	{
 		"name": "Minecraft Games",
 		"image": "cover.svg",
 		"directory": "eaglercraft"
