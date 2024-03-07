@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Ju&Ju Adventure",
+		"image": "cover.svg",
+		"directory": "juju"
+	},
+	{
 		"name": "Falling in Love",
 		"image": "cover.svg",
 		"directory": "fil"
