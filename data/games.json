@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Knytt",
+		"image": "cover.svg",
+		"directory": "knytt"
+	},
+	{
 		"name": "Minecraft Games",
 		"image": "cover.svg",
 		"directory": "eaglercraft"
