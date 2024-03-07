@@ -1,45 +1,5 @@
 [
 	{
-		"name": "PSE Factory",
-		"image": "cover.svg",
-		"directory": "pse"
-	},
-	{
-		"name": "Ginett-O-Matic",
-		"image": "cover.svg",
-		"directory": "gin"
-	},
-	{
-		"name": "Ju&Ju Adventure",
-		"image": "cover.svg",
-		"directory": "juju"
-	},
-	{
-		"name": "Falling in Love",
-		"image": "cover.svg",
-		"directory": "fil"
-	},
-	{
-		"name": "Greed",
-		"image": "cover.svg",
-		"directory": "greed"
-	},
-	{
-		"name": "Destruction Carnival",
-		"image": "cover.svg",
-		"directory": "dc"
-	},
-	{
-		"name": "Frontier 1337",
-		"image": "cover.svg",
-		"directory": "1337"
-	},
-	{
-		"name": "Knytt",
-		"image": "cover.svg",
-		"directory": "knytt"
-	},
-	{
 		"name": "Minecraft Games",
 		"image": "cover.svg",
 		"directory": "eaglercraft"
@@ -1431,11 +1391,6 @@
 	},
 	{
 		"name": "Geometry Dash Lite",
-		"directory": "gdlite",
-		"image": "logo.png"
-	},
-	{
-		"name": "test",
 		"directory": "gdlite",
 		"image": "logo.png"
 	},
