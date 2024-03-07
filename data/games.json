@@ -1,65 +1,5 @@
 [
 	{
-		"name": "Drift Mania",
-		"image": "cover.svg",
-		"directory": "drift"
-	},
-	{
-		"name": "Dashy Reaper",
-		"image": "cover.svg",
-		"directory": "dashy"
-	},
-	{
-		"name": "Driving Force 4",
-		"image": "cover.svg",
-		"directory": "driving"
-	},
-	{
-		"name": "Bullet Fury",
-		"image": "cover.svg",
-		"directory": "bulletfury"
-	},
-	{
-		"name": "PSE Factory",
-		"image": "cover.svg",
-		"directory": "pse"
-	},
-	{
-		"name": "Ginett-O-Matic",
-		"image": "cover.svg",
-		"directory": "gin"
-	},
-	{
-		"name": "Ju&Ju Adventure",
-		"image": "cover.svg",
-		"directory": "juju"
-	},
-	{
-		"name": "Falling in Love",
-		"image": "cover.svg",
-		"directory": "fil"
-	},
-	{
-		"name": "Greed",
-		"image": "cover.svg",
-		"directory": "greed"
-	},
-	{
-		"name": "Destruction Carnival",
-		"image": "cover.svg",
-		"directory": "dc"
-	},
-	{
-		"name": "Frontier 1337",
-		"image": "cover.svg",
-		"directory": "1337"
-	},
-	{
-		"name": "Knytt",
-		"image": "cover.svg",
-		"directory": "knytt"
-	},
-	{
 		"name": "Minecraft Games",
 		"image": "cover.svg",
 		"directory": "eaglercraft"
@@ -1455,11 +1395,6 @@
 		"image": "logo.png"
 	},
 	{
-		"name": "test",
-		"directory": "gdlite",
-		"image": "logo.png"
-	},
-	{
 		"name": "Virtual x86",
 		"directory": "v86",
 		"image": "favicon.ico"
@@ -1518,5 +1453,105 @@
 		"name": "The Enchanted Cave 2",
 		"directory": "enchantedcave2",
 		"image": "icon.png"
+	},
+	{
+		"name": "Animal Crossing Wild World",
+		"directory": "animalcrossingwildworld",
+		"image": "animalcrossingwildworld.png"
+	},
+	{
+		"name": "Banjo Kazooie",
+		"directory": "banjokazooie",
+		"image": "banjokazooie.png"
+	},
+	{
+		"name": "Donkey Kong 64",
+		"directory": "donkeykong64",
+		"image": "donkeykong64.png"
+	},
+	{
+		"name": "Doom 64",
+		"directory": "doom64",
+		"image": "doom64.png"
+	},
+	{
+		"name": "Goldeneye 007",
+		"directory": "goldeneye",
+		"image": "goldeneye007.png"
+	},
+	{
+		"name": "Majora's Mask",
+		"directory": "majorasmask",
+		"image": "majorasmask.png"
+	},
+	{
+		"name": "Mario Kart DS",
+		"directory": "mariokartds",
+		"image": "mariokartds.png"
+	},
+	{
+		"name": "Mario Party",
+		"directory": "marioparty",
+		"image": "marioparty.png"
+	},
+	{
+		"name": "Mario Party 2",
+		"directory": "marioparty2",
+		"image": "marioparty2.png"
+	},
+	{
+		"name": "Mario Party 3",
+		"directory": "marioparty3",
+		"image": "marioparty3.png"
+	},
+	{
+		"name": "Mario Party DS",
+		"directory": "mariopartyds",
+		"image": "mariopartyds.png"
+	},
+	{
+		"name": "Nintendogs",
+		"directory": "nintendogs",
+		"image": "nintendogs.png"
+	},
+	{
+		"name": "Papas Bakeria",
+		"directory": "papasbakeria",
+		"image": "papasbakeria.png"
+	},
+	{
+		"name": "Papas Cheeseria",
+		"directory": "papascheeseria",
+		"image": "papascheeseria.png"
+	},
+	{
+		"name": "Papas Pastaria",
+		"directory": "papaspastaria",
+		"image": "papaspastaria.png"
+	},
+	{
+		"name": "Papas Sushiria",
+		"directory": "papassushiria",
+		"image": "papassushiria.png"
+	},
+	{
+		"name": "Papas Wingeria",
+		"directory": "papaswingeria",
+		"image": "papaswingeria.png"
+	},
+	{
+		"name": "Paper Mario",
+		"directory": "papermario",
+		"image": "papermario.png"
+	},
+	{
+		"name": "Star Fox 64",
+		"directory": "starfox64",
+		"image": "starfox64.png"
+	},
+	{
+		"name": "Super Mario 64 DS",
+		"directory": "supermario64ds",
+		"image": "supermario64ds.png"
 	}
 ]
