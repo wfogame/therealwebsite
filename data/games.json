@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Greed",
+		"image": "cover.svg",
+		"directory": "greed"
+	},
+	{
 		"name": "Destruction Carnival",
 		"image": "cover.svg",
 		"directory": "dc"
