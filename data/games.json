@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Frontier 1337",
+		"image": "cover.svg",
+		"directory": "1337"
+	},
+	{
 		"name": "Knytt",
 		"image": "cover.svg",
 		"directory": "knytt"
