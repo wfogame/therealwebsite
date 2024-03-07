@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Bullet Fury",
+		"image": "cover.svg",
+		"directory": "bulletfury"
+	},
+	{
 		"name": "PSE Factory",
 		"image": "cover.svg",
 		"directory": "pse"
