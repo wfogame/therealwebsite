@@ -1,5 +1,10 @@
 [
 	{
+		"name": "PSE Factory",
+		"image": "cover.svg",
+		"directory": "pse"
+	},
+	{
 		"name": "Ginett-O-Matic",
 		"image": "cover.svg",
 		"directory": "gin"
