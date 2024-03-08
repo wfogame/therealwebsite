@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Geometry Dash Sky",
+		"image": "cover.svg",
+		"directory": "geodashsky"
+	},
+	{
 		"name": "Drift Mania",
 		"image": "cover.svg",
 		"directory": "drift"
