@@ -1,5 +1,10 @@
 [
 	{
+		"name": "The Minions: Resurrection",
+		"image": "cover.svg",
+		"directory": "minion"
+	},
+	{
 		"name": "Geometry Dash Sky",
 		"image": "cover.svg",
 		"directory": "geodashsky"
