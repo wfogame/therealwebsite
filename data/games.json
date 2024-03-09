@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Counter Strike: DS",
+		"image": "cover.svg",
+		"directory": "cds"
+	},
+	{
 		"name": "Terri-Fried",
 		"image": "cover.svg",
 		"directory": "terrifried"
