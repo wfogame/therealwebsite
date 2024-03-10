@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Geometry Jump",
+		"image": "cover.svg",
+		"directory": "geojump"
+	},
+	{
 		"name": "Counter Strike: DS",
 		"image": "cover.svg",
 		"directory": "cds"
