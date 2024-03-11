@@ -415,11 +415,6 @@
 		"image": "icon.png"
 	},
 	{
-		"name": "Turbowarp",
-		"directory": "turbowarp",
-		"image": "icon.png"
-	},
-	{
 		"name": "Tetris",
 		"directory": "tetris",
 		"image": "icon.png"
