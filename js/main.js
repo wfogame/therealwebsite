@@ -116,20 +116,36 @@ function delPassword() {
 	localStorage.removeItem("selenite.password");
 }
 
-function initTime() {
-	setInterval(() => {
-		let date = new Date();
-		let options = localStorage.getItem("selenite.timeFormat")
-			? JSON.parse(localStorage.getItem("selenite.timeFormat"))
-			: {
-					hour: "2-digit",
-					minute: "2-digit",
-					hour12: true,
-			  };
-		let time = date.toLocaleTimeString([], options);
-		document.getElementById("time").innerText = time;
-	}, 100);
+function getCurrentTime() {
+    const n = document.getElementById("time");
+
+    fetch("https://worldtimeapi.org/api/ip")
+        .then(response => response.json())
+        .then(data => {
+            const t = new Date(data.utc_datetime);
+            const formattedTime = t.toLocaleTimeString(undefined, {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+                hour12: true
+            });
+            n.textContent = formattedTime;
+        })
+        .catch(() => {
+
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString(undefined, {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+                hour12: true
+            });
+            n.textContent = formattedTime;
+        });
 }
+
+getCurrentTime();
+setInterval(getCurrentTime, 900);
 
 let cookieConsentScript = document.createElement("script");
 cookieConsentScript.src = "/js/cookieConsent.js";
