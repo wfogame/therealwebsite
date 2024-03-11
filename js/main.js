@@ -116,39 +116,51 @@ function delPassword() {
 	localStorage.removeItem("selenite.password");
 }
 
-          
- let use12HourFormat = "24" !== localStorage.getItem("timeFormat");
 
-function getCurrentTime() {
-    const t = document.getElementById("time");
-    fetch("https://worldtimeapi.org/api/ip").then((t => t.json())).then((e => {
-        const o = formatTime(new Date(e.utc_datetime));
-        t.textContent = o
-    })).catch((() => {
-        const e = formatTime(new Date);
-        t.textContent = e
-    }))
-}
+        let use12HourFormat = localStorage.getItem('timeFormat') !== '24';
 
-function formatTime(t) {
-    const e = {
-        hour: "numeric",
-        minute: "numeric",
-        second: "numeric",
-        hour12: use12HourFormat
-    };
-    return t.toLocaleTimeString(void 0, e)
-}
+        function getCurrentTime() {
+            const n = document.getElementById("time");
 
-function toggleTimeFormat() {
-    use12HourFormat = !use12HourFormat, localStorage.setItem("timeFormat", use12HourFormat ? "12" : "24"), updateButtonText(), getCurrentTime()
-}
+            fetch("https://worldtimeapi.org/api/ip")
+                .then(response => response.json())
+                .then(data => {
+                    const t = new Date(data.utc_datetime);
+                    const formattedTime = formatTime(t);
+                    n.textContent = formattedTime;
+                })
+                .catch(() => {
+                    const currentTime = new Date();
+                    const formattedTime = formatTime(currentTime);
+                    n.textContent = formattedTime;
+                });
+        }
 
-function updateButtonText() {
-    document.getElementById("toggleButton").textContent = use12HourFormat ? "Switch to 24-Hour Time" : "Switch to 12-Hour Time"
-}
-getCurrentTime(), updateButtonText(), setInterval(getCurrentTime, 900);
+        function formatTime(time) {
+            const options = {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+                hour12: use12HourFormat
+            };
+            return time.toLocaleTimeString(undefined, options);
+        }
 
+        function toggleTimeFormat() {
+            use12HourFormat = !use12HourFormat;
+            localStorage.setItem('timeFormat', use12HourFormat ? '12' : '24');
+            updateButtonText(); 
+            getCurrentTime(); 
+        }
+
+        function updateButtonText() {
+            const button = document.getElementById('toggleButton');
+            button.textContent = use12HourFormat ? 'Switch to 24-Hour Time' : 'Switch to 12-Hour Time';
+        }
+
+        getCurrentTime();
+        updateButtonText(); 
+        setInterval(getCurrentTime, 900);
 		
 let cookieConsentScript = document.createElement("script");
 cookieConsentScript.src = "/js/cookieConsent.js";
