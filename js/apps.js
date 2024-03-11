@@ -29,7 +29,7 @@ function loadGames(data) {
 				class: "game",
 				id: data[i].directory,
 				recommended: data[i].recommended,
-				href: "semag/" + data[i].directory + "/index.html",
+				href: "sppa/" + data[i].directory + "/index.html",
 			})
 			.data("recommended", data[i].recommended)
 			.append(
