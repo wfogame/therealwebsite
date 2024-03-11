@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Code Editor",
+		"directory": "code",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Turbowarp",
 		"directory": "turbowarp",
 		"image": "cover.svg"
