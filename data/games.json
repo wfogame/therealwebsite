@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Rough Dino",
+		"image": "cover.svg",
+		"directory": "roughdino"
+	},
+	{
 		"name": "Geometry Meltdown",
 		"image": "cover.svg",
 		"directory": "geomelt"
