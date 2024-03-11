@@ -155,7 +155,7 @@ function loadGames(data) {
 }
 
 function redirectGame(dir) {
-	window.location.href = window.location.origin + "/semag/" + dir + "/index.html";
+	window.location.href = window.location.origin + "/sppa/" + dir + "/index.html";
 }
 function dynamicSort(property) {
 	var sortOrder = 1;
