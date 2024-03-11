@@ -1,8 +1,8 @@
 [
 	{
-		"name": "App 1",
+		"name": "Calculator",
 		"image": "cover.svg",
-		"directory": "app1"
+		"directory": "calc"
 	}
 
 ]
