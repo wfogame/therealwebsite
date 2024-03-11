@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Javascript Deobfuscator",
+		"directory": "deobfuscator",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Code Editor",
 		"directory": "code",
 		"image": "cover.svg"
