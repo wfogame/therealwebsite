@@ -46,7 +46,7 @@ header,
 footer {
     background-color: var(--uibg);
     display: flex;
-	text-decoration: none;
+	border-bottom: none;
 	font-weight:700;
     padding: 0.7rem;
     width: 100%;
