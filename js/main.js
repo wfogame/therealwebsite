@@ -116,37 +116,46 @@ function delPassword() {
 	localStorage.removeItem("selenite.password");
 }
 
-function getCurrentTime() {
-    const n = document.getElementById("time");
+          
+        let use12HourFormat = localStorage.getItem('timeFormat') !== '24';
 
-    fetch("https://worldtimeapi.org/api/ip")
-        .then(response => response.json())
-        .then(data => {
-            const t = new Date(data.utc_datetime);
-            const formattedTime = t.toLocaleTimeString(undefined, {
+        function getCurrentTime() {
+            const n = document.getElementById("time");
+
+            fetch("https://worldtimeapi.org/api/ip")
+                .then(response => response.json())
+                .then(data => {
+                    const t = new Date(data.utc_datetime);
+                    const formattedTime = formatTime(t);
+                    n.textContent = formattedTime;
+                })
+                .catch(() => {
+                    const currentTime = new Date();
+                    const formattedTime = formatTime(currentTime);
+                    n.textContent = formattedTime;
+                });
+        }
+
+        function formatTime(time) {
+            const options = {
                 hour: "numeric",
                 minute: "numeric",
                 second: "numeric",
-                hour12: true
-            });
-            n.textContent = formattedTime;
-        })
-        .catch(() => {
+                hour12: use12HourFormat
+            };
+            return time.toLocaleTimeString(undefined, options);
+        }
 
-            const currentTime = new Date();
-            const formattedTime = currentTime.toLocaleTimeString(undefined, {
-                hour: "numeric",
-                minute: "numeric",
-                second: "numeric",
-                hour12: true
-            });
-            n.textContent = formattedTime;
-        });
-}
+        function toggleTimeFormat() {
+            use12HourFormat = !use12HourFormat;
+            localStorage.setItem('timeFormat', use12HourFormat ? '12' : '24');
+            getCurrentTime();
+        }
 
-getCurrentTime();
-setInterval(getCurrentTime, 900);
+        getCurrentTime();
+        setInterval(getCurrentTime, 900);
 
+		
 let cookieConsentScript = document.createElement("script");
 cookieConsentScript.src = "/js/cookieConsent.js";
 document.head.appendChild(cookieConsentScript);
