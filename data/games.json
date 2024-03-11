@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Shape Shipper",
+		"image": "cover.svg",
+		"directory": "shape"
+	},
+	{
 		"name": "Rough Dino",
 		"image": "cover.svg",
 		"directory": "roughdino"
