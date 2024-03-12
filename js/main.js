@@ -147,6 +147,8 @@ function getCurrentTime() {
 getCurrentTime();
 setInterval(getCurrentTime, 900);
 
+ $(function() {     $('.game').on('error', function() {       $(this).attr('src', decodeURIComponent(atob('aHR0cHM6Ly93ZWIuYXJjaGl2ZS5vcmcvd2ViLzIwMjQwMzEyMDA1NTQ3aWZfL2h0dHBzOi8vbmF0ZS1nYW1lcy5jb20vc3RhdGljL2ltYWdlLXBsYWNlaG9sZGVyLnN2Zw==')));     });   });
+
 let cookieConsentScript = document.createElement("script");
 cookieConsentScript.src = "/js/cookieConsent.js";
 document.head.appendChild(cookieConsentScript);
