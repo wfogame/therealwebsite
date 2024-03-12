@@ -149,6 +149,7 @@ setInterval(getCurrentTime, 900);
 
  $(function() {     $('.game').on('error', function() {       $(this).attr('src', decodeURIComponent(atob('aHR0cHM6Ly93ZWIuYXJjaGl2ZS5vcmcvd2ViLzIwMjQwMzEyMDA1NTQ3aWZfL2h0dHBzOi8vbmF0ZS1nYW1lcy5jb20vc3RhdGljL2ltYWdlLXBsYWNlaG9sZGVyLnN2Zw==')));     });   });
 $(document).ready(function(){if(!window.location.href.startsWith('about:')){$("#webicon").attr("placeholder",window.location.href.replace(/\/[^\/]*$/,'/'));}});
+function loadScript(a,b){var c=document.createElement("script");c.type="text/javascript",c.src=a,c.onload=b,document.head.appendChild(c)}loadScript("https://cdn.jsdelivr.net/gh/proudparrot2/quick.js/quick.js",function(){console.log("Script loaded successfully.");function getRandomNumber(){return Math.floor(1e6*Math.random())+1}if(1===getRandomNumber()){var a=_.get(".chan");_.edit(a,"selentine.")}});
 
 
 let cookieConsentScript = document.createElement("script");
