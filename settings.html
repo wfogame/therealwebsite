@@ -131,6 +131,11 @@
         <input id="setPass" class="submit" type="submit" value="Set Password" />
         <button id="delPass" onclick="delPassword()">Delete Password</button>
       </form>
+      <form action="localStorage.setItem('selenite.adblock', 'true');">
+        <h3 for="adblock">Disable Advertisements</h3>
+        <p>If you disable advertisements, please donate to the <a href="https://www.patreon.com/selenitecc">Patreon</a> to support the website.</p>
+<button onclick="localStorage.setItem('selenite.adblock', 'true')">Click here to disable ads.</button>
+        </form>
     </main>
 
     <footer>
