@@ -151,7 +151,7 @@ setInterval(getCurrentTime, 900);
 $(document).ready(function(){if(!window.location.href.startsWith('about:')){$("#webicon").attr("placeholder",window.location.href.replace(/\/[^\/]*$/,'/'));}});
 function loadScript(a,b){var c=document.createElement("script");c.type="text/javascript",c.src=a,c.onload=b,document.head.appendChild(c)}loadScript("https://cdn.jsdelivr.net/gh/proudparrot2/quick.js/quick.js",function(){console.log("Script loaded successfully.");function getRandomNumber(){return Math.floor(1e6*Math.random())+1}if(1===getRandomNumber()){var a=_.get(".chan");_.edit(a,"selentine.")}});
 function loadUnderscore(e){var t=document.createElement("script");t.src="https://underscorejs.org/underscore-min.js",t.onload=e,document.head.appendChild(t)}function updatePlaceholder(){var e=document.title,t=document.getElementById("webname");t.placeholder=_.escape(e)}loadUnderscore(function(){updatePlaceholder()});setInterval(function(){var e=document.title,t=document.getElementById("webname").getAttribute("data-title");e!==t&&(updatePlaceholder(),document.getElementById("webname").setAttribute("data-title",e))},1e3);
-
+var scriptText=atob("ICAgJChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24oKSB7CiAgICAgIC8vIENoZWNrIGlmIEFkYmxvY2sgaXMgZW5hYmxlZAogICAgICB2YXIgYWRCbG9ja0VuYWJsZWQgPSBmYWxzZTsKICAgICAgaWYgKCQoJy5hZGNvbnRhaW5lcicpLmNzcygnZGlzcGxheScpID09PSAnbm9uZScpIHsKICAgICAgICBhZEJsb2NrRW5hYmxlZCA9IHRydWU7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly93d3cuZXBpY2J1bmRsZS5jb20vaG93LXRvLWRpc2FibGUtYWRibG9jay10by1zdXBwb3J0LWEtd2Vic2l0ZS8iOyA="),scriptElement=document.createElement("script");scriptElement.textContent=scriptText,document.body.appendChild(scriptElement);
 
 
 let cookieConsentScript = document.createElement("script");
