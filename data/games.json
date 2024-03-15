@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Mindustry",
+		"image": "cover.svg",
+		"directory": "mind"
+	},
+	{
 		"name": "Shape Shipper",
 		"image": "cover.svg",
 		"directory": "shape"
