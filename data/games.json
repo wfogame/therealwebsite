@@ -1,5 +1,30 @@
 [
 	{
+		"name": "Mindustry",
+		"image": "cover.svg",
+		"directory": "mind"
+	},
+	{
+		"name": "Shape Shipper",
+		"image": "cover.svg",
+		"directory": "shape"
+	},
+	{
+		"name": "Rough Dino",
+		"image": "cover.svg",
+		"directory": "roughdino"
+	},
+	{
+		"name": "Geometry Meltdown",
+		"image": "cover.svg",
+		"directory": "geomelt"
+	},
+	{
+		"name": "Geometry Jump",
+		"image": "cover.svg",
+		"directory": "geojump"
+	},
+	{
 		"name": "Counter Strike: DS",
 		"image": "cover.svg",
 		"directory": "cds"
@@ -382,11 +407,6 @@
 	{
 		"name": "Dino",
 		"directory": "dino",
-		"image": "icon.png"
-	},
-	{
-		"name": "Turbowarp",
-		"directory": "turbowarp",
 		"image": "icon.png"
 	},
 	{
