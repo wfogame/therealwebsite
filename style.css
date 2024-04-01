@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
 @keyframes loadInAnimation {
 	0% {
@@ -375,6 +374,20 @@ label {
 #toast p {
 	font-size: 16px;
 	text-align: center;
+}
+#discord {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 56px;
+	height: 56px;
+	z-index: 199975;
+	border-radius: 100%;
+	background-image: url("/img/discord-mark-white.png");
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-width: 0;
 }
 @keyframes toastFade {
 	0% {

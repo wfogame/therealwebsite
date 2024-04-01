@@ -1,6 +1,6 @@
+
 var interval;
 document.addEventListener("DOMContentLoaded", function () {
-	initTime();
 	if (localStorage.getItem("theme")) {
 		localStorage.setItem("selenite.theme", localStorage.getItem("theme"));
 		localStorage.removeItem("theme");
@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	const iconSetting = document.querySelector("input#discordIcon");
 	const blockClose = document.querySelector("input#blockClose");
 	const openBlank = document.getElementById("blank");
-	if (document.querySelector("widgetbot-crate")) {
-		if (localStorage.getItem("selenite.discordIcon") == "true") {
-			const widget = document.querySelector("widgetbot-crate");
-			widget.setAttribute("style", "display:none");
-		}
-	}
+	const bgTheme = document.querySelector("input#bgTheme");
+	// if (document.querySelector("widgetbot-crate")) {
+	// 	if (localStorage.getItem("selenite.discordIcon") == "true") {
+	// 		const widget = document.querySelector("widgetbot-crate");
+	// 		widget.setAttribute("style", "display:none");
+	// 	}
+	// }
 	if (document.querySelector("input#discordIcon")) {
 		if (localStorage.getItem("selenite.discordIcon") == "true") {
 			iconSetting.checked = true;
@@ -48,6 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			localStorage.setItem("selenite.tabDisguise", tabDisguise.checked);
 		});
 	}
+	if (document.querySelector("input#bgTheme")) {
+		bgTheme.checked = true;
+	}
 	document.getElementById("blank").addEventListener("click", () => {
 		win = window.open();
 		win.document.body.style.margin = "0";
@@ -71,14 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			$(".caraxle").prop({ href: `javascript:${encodeURI(data)}` });
 		});
 	}
-	if(document.body) {
-		for(let i = 0;i<10;i++) {
-			setTimeout(() => {
-				crate.options.color = getComputedStyle(document.body).getPropertyValue("--uibg");
-			}, 100)
-		}
-	}
-
+	initTime();
 });
 function setPanicMode() {
 	if (!$("#panic").val().startsWith("https")) {
@@ -117,42 +114,80 @@ function delPassword() {
 }
 
 function getCurrentTime() {
-    const n = document.getElementById("time");
+	const n = document.getElementById("time");
 
-    fetch("https://worldtimeapi.org/api/ip")
-        .then(response => response.json())
-        .then(data => {
-            const t = new Date(data.utc_datetime);
-            const formattedTime = t.toLocaleTimeString(undefined, {
-                hour: "numeric",
-                minute: "numeric",
-                second: "numeric",
-                hour12: true
-            });
-            n.textContent = formattedTime;
-        })
-        .catch(() => {
-
-            const currentTime = new Date();
-            const formattedTime = currentTime.toLocaleTimeString(undefined, {
-                hour: "numeric",
-                minute: "numeric",
-                second: "numeric",
-                hour12: true
-            });
-            n.textContent = formattedTime;
-        });
+	fetch("https://worldtimeapi.org/api/ip")
+		.then((response) => response.json())
+		.then((data) => {
+			const t = new Date(data.utc_datetime);
+			const formattedTime = t.toLocaleTimeString(undefined, {
+				hour: "numeric",
+				minute: "numeric",
+				second: "numeric",
+				hour12: true,
+			});
+			n.textContent = formattedTime;
+		})
+		.catch(() => {
+			const currentTime = new Date();
+			const formattedTime = currentTime.toLocaleTimeString(undefined, {
+				hour: "numeric",
+				minute: "numeric",
+				second: "numeric",
+				hour12: true,
+			});
+			n.textContent = formattedTime;
+		});
 }
 
 getCurrentTime();
 setInterval(getCurrentTime, 900);
 
- $(function() {     $('.game').on('error', function() {       $(this).attr('src', decodeURIComponent(atob('aHR0cHM6Ly93ZWIuYXJjaGl2ZS5vcmcvd2ViLzIwMjQwMzEyMDA1NTQ3aWZfL2h0dHBzOi8vbmF0ZS1nYW1lcy5jb20vc3RhdGljL2ltYWdlLXBsYWNlaG9sZGVyLnN2Zw==')));     });   });
-$(document).ready(function(){if(!window.location.href.startsWith('about:')){$("#webicon").attr("placeholder",window.location.href.replace(/\/[^\/]*$/,'/'));}});
-function loadScript(a,b){var c=document.createElement("script");c.type="text/javascript",c.src=a,c.onload=b,document.head.appendChild(c)}loadScript("https://cdn.jsdelivr.net/gh/proudparrot2/quick.js/quick.js",function(){console.log("Script loaded successfully.");function getRandomNumber(){return Math.floor(1e6*Math.random())+1}if(1===getRandomNumber()){var a=_.get(".chan");_.edit(a,"selentine.")}});
-function loadUnderscore(e){var t=document.createElement("script");t.src="https://underscorejs.org/underscore-min.js",t.onload=e,document.head.appendChild(t)}function updatePlaceholder(){var e=document.title,t=document.getElementById("webname");t.placeholder=_.escape(e)}loadUnderscore(function(){updatePlaceholder()});setInterval(function(){var e=document.title,t=document.getElementById("webname").getAttribute("data-title");e!==t&&(updatePlaceholder(),document.getElementById("webname").setAttribute("data-title",e))},1e3);
 
-
+$(document).ready(function () {
+	if (!window.location.href.startsWith("about:")) {
+		$("#webicon").attr("placeholder", window.location.href.replace(/\/[^\/]*$/, "/"));
+	}
+});
+function loadScript(a, b) {
+	var c = document.createElement("script");
+	(c.type = "text/javascript"), (c.src = a), (c.onload = b), document.head.appendChild(c);
+}
+function toast(message, onclick) {
+	const toast = document.createElement("div");
+	toast.setAttribute("id", "toast");
+	console.log(message.time);
+	toast.innerHTML = `<div class=samerow><h1>${message.title}${message.time ? ` - ${timeAgo(new Date(message.time * 1000))}` : ""}</h1></div><p>${message.message}</p>`;
+	toast.style.animation = "toastFade 6s";
+	document.body.appendChild(toast);
+	if(onclick){
+		toast.addEventListener("click", onclick);
+		toast.style.cursor = 'pointer';
+	}
+	setTimeout(() => {
+		toast.remove();
+	}, 6000);
+}
+function timeAgo(input) {
+	const date = input instanceof Date ? input : new Date(input);
+	const formatter = new Intl.RelativeTimeFormat("en");
+	const ranges = {
+		years: 3600 * 24 * 365,
+		months: 3600 * 24 * 30,
+		weeks: 3600 * 24 * 7,
+		days: 3600 * 24,
+		hours: 3600,
+		minutes: 60,
+		seconds: 1,
+	};
+	const secondsElapsed = (date.getTime() - Date.now()) / 1000;
+	for (let key in ranges) {
+		if (ranges[key] < Math.abs(secondsElapsed)) {
+			const delta = secondsElapsed / ranges[key];
+			return formatter.format(Math.round(delta), key);
+		}
+	}
+}
 let cookieConsentScript = document.createElement("script");
 cookieConsentScript.src = "/js/cookieConsent.js";
 document.head.appendChild(cookieConsentScript);
