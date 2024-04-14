@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Windows 11",
+		"directory": "win11",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Javascript Deobfuscator",
 		"directory": "deobsfucator",
 		"image": "cover.svg"
