@@ -625,11 +625,6 @@
 		"image": "universal-paperclips.png"
 	},
 	{
-		"name": "Windows 11",
-		"directory": "win11",
-		"image": "favicon.png"
-	},
-	{
 		"name": "Learn to Fly 2",
 		"directory": "learntofly2",
 		"image": "logo.jpg"
