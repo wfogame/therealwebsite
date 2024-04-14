@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "https://selenite.codeberg.page/sppa/11/cover.svg",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "174x174"
     }
