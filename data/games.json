@@ -1,5 +1,10 @@
 [
 	{
+		"name": "13 Days of Hell",
+		"image": "cover.svg",
+		"directory": "13"
+	},
+	{
 		"name": "Mindustry",
 		"image": "cover.svg",
 		"directory": "mind"
