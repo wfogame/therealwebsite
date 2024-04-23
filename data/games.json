@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Racer",
+		"image": "cover.svg",
+		"directory": "racer"
+	},
+	{
 		"name": "Fort@dmin",
 		"image": "cover.svg",
 		"directory": "fort"
