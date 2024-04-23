@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Connect Four",
+		"image": "cover.svg",
+		"directory": "c4"
+	},
+	{
 		"name": "13 Days of Hell",
 		"image": "cover.svg",
 		"directory": "13"
