@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Flappy Dino",
+		"image": "cover.svg",
+		"directory": "fld"
+	},
+	{
 		"name": "Connect Four",
 		"image": "cover.svg",
 		"directory": "c4"
