@@ -19,6 +19,13 @@ body[theme=threekho] {
     --textcolor: #fff;
     --bg: #000000;
 }
+body[theme=dogcat] {
+    --inputbg: #537294;
+    --inputborder: #30719c;
+    --uibg: #2a7491;
+    --textcolor: #fff;
+    --bg: url("https://wallpaperaccess.com/full/115544.jpg"), rgb(26, 127, 158);
+}
 body[theme=custom] {
     --inputbg: #3c096c;
     --inputborder: #5a189a;
