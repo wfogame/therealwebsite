@@ -12,16 +12,11 @@
 		<script src="/js/games.js"></script>
 		<script src="/js/search.js"></script>
 		<script src="/js/main.js"></script>
+		<script src="/js/widget.js"></script>
 		<script src="/js/themes.js"></script>
 		<script src="/js/cookie.js"></script>
 
-		<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-			new Crate({
-			    server: '1148719137238040606', // Selenite
-			    channel: '1173731814196645909', // #commands
-			       color: getComputedStyle(document.body).getPropertyValue("--uibg")
-			})
-		</script>
+		
 		<link rel="stylesheet" href="/style.css" />
 		<link rel="stylesheet" href="/themes.css" />
 
@@ -43,32 +38,6 @@
 					localStorage.setItem("selenite.version", data.version);
 				}
 			});
-			function toast(message, type) {
-				const toast = document.getElementById("toast");
-				toast.innerHTML = `<div class=samerow><h1>${message.title} - ${timeAgo(new Date(message.time * 1000))}</h1></div><p>${message.message}</p>`;
-				toast.style.animation = "toastFade 6s";
-			}
-
-			function timeAgo(input) {
-				const date = input instanceof Date ? input : new Date(input);
-				const formatter = new Intl.RelativeTimeFormat("en");
-				const ranges = {
-					years: 3600 * 24 * 365,
-					months: 3600 * 24 * 30,
-					weeks: 3600 * 24 * 7,
-					days: 3600 * 24,
-					hours: 3600,
-					minutes: 60,
-					seconds: 1,
-				};
-				const secondsElapsed = (date.getTime() - Date.now()) / 1000;
-				for (let key in ranges) {
-					if (ranges[key] < Math.abs(secondsElapsed)) {
-						const delta = secondsElapsed / ranges[key];
-						return formatter.format(Math.round(delta), key);
-					}
-				}
-			}
 		</script>
 	</alerts>
 	<body>

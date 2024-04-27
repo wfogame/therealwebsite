@@ -30,6 +30,11 @@
 		"directory": "mind"
 	},
 	{
+		"name": "House of Hazards",
+		"image": "favicon.ico",
+		"directory": "houseofhazards"
+	},
+	{
 		"name": "Shape Shipper",
 		"image": "cover.svg",
 		"directory": "shape"
