@@ -24,7 +24,7 @@ body[theme=dogcat] {
     --inputborder: #30719c;
     --uibg: #2a7491;
     --textcolor: #fff;
-    --bg: url(""), rgb(26, 127, 158);
+    --bg: url("img/backgrounds/dogcat.svg"), rgb(26, 127, 158);
   /* https://wallpaperaccess.com/full/115544.jpg */
 }
 body[theme=custom] {
