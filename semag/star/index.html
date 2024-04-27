@@ -183,14 +183,19 @@ font-family: 'Press Start 2P', sans-serif;
 <script>
 $(document).ready(function(){
     var isClicked = false;
+    var timeout;
     
     $(".star").mousedown(function(){
         isClicked = true;
         $(this).animate({width: '+=10%', height: '+=20%'}, 200);
     }).mouseup(function(){
         if (isClicked) {
-            isClicked = false;
-            $(this).animate({width: '-=10%', height: '-=20%'}, 200);
+            clearTimeout(timeout);
+            var self = this;
+            timeout = setTimeout(function() {
+                isClicked = false;
+                $(self).animate({width: '-=10%', height: '-=20%'}, 200);
+            }, 300);
         }
     });
 });
