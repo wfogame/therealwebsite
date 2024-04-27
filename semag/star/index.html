@@ -180,6 +180,14 @@ font-family: 'Press Start 2P', sans-serif;
     }, false);
 })();
   </script>
+$(document).ready(function(){
+    $(".star").click(function(){
+        $(this).css("transform", "scale(1.2)");
+        setTimeout(() => {
+            $(this).css("transform", "scale(1)");
+        }, 100);
+    });
+});
 
     </head>
     <body>
