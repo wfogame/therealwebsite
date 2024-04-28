@@ -1,5 +1,10 @@
 [
 	{
+		"name": "MiniWiki",
+		"directory": "wiki",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Windows 11",
 		"directory": "11",
 		"image": "cover.svg"
