@@ -19,6 +19,13 @@ body[theme=threekho] {
     --textcolor: #fff;
     --bg: #000000;
 }
+body[theme=art] {
+    --inputbg: #0284d4;
+    --inputborder: #0284d4;
+    --uibg: #0284d4;
+    --textcolor: #fffff;
+    --bg: #1a2023;
+}
 body[theme=dogcat] {
     --inputbg: #537294;
     --inputborder: #30719c;
