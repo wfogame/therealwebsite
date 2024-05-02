@@ -1,5 +1,10 @@
 [
 	{
+		"name": "EmulatorJS", 
+		"directory": "emu",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Scratch 1", 
 		"directory": "scratch1",
 		"image": "cover.svg"
