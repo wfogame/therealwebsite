@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Scratch 1",
+		"directory": "scratch1",
+		"image": "cover.svg"
+	},
+	{
 		"name": "AyunWebEPK",
 		"directory": "ayun",
 		"image": "cover.svg"
