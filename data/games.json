@@ -1015,11 +1015,6 @@
 		"image": "favicon-180.png"
 	},
 	{
-		"name": "emulatorJS",
-		"directory": "emulatorjs",
-		"image": "logo.png"
-	},
-	{
 		"name": "Geometry Rash",
 		"directory": "geometryrash",
 		"image": "icon-114.png"
