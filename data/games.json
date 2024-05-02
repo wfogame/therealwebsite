@@ -310,11 +310,6 @@
 		"image": "icon.png"
 	},
 	{
-		"name": "GBA Emulator",
-		"directory": "gba",
-		"image": "icon.png"
-	},
-	{
 		"name": "Celeste",
 		"directory": "celeste",
 		"image": "icon.png"
