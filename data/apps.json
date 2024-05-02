@@ -1,5 +1,10 @@
 [
 	{
+		"name": "GBA Emulator", 
+		"directory": "gba",
+		"image": "cover.svg"
+	},
+	{
 		"name": "EmulatorJS", 
 		"directory": "emu",
 		"image": "cover.svg"
