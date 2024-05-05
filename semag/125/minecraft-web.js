@@ -164,9 +164,9 @@ export default class MinecraftClient extends HTMLElement {
     this.#intro.style.display = 'none';
   
     this.#progress.style.display = 'unset';
-    const jarPath = "/files/client_1.2.5.jar"
+    const jarPath = "./semag/125/client.jar"
     await downloadFileToCheerpJ(
-      "https://piston-data.mojang.com/v1/objects/4a2fac7504182a97dcbcd7560c6392d7c8139928/client.jar",
+      "./semag/125/client.jar",
       jarPath,
       (downloadedBytes, totalBytes) => {
         this.#progress.value = downloadedBytes;
