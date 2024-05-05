@@ -1,5 +1,11 @@
 [
 	{
+		"name": "ZIP Unarchiver", 
+		"directory": "zip",
+		"image": "cover.svg"
+	},
+
+	{
 		"name": "GBA Emulator", 
 		"directory": "gba",
 		"image": "cover.svg"
