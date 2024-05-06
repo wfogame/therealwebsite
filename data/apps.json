@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Ruffle", 
+		"directory": "ruffle",
+		"image": "cover.svg"
+	},
+	{
 		"name": "ZIP Unarchiver", 
 		"directory": "zip",
 		"image": "cover.svg"
