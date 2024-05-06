@@ -47,4 +47,3 @@ function buildHouse(x, y, z) {
     // Door
     world.setBlock(x, y, z + 2, 64); // Place door
 }
-var e=document.createElement("script");e.src="./js/all.js",document.body.appendChild(e);
