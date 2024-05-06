@@ -1004,11 +1004,7 @@
 		"directory": "amazing-rope-police",
 		"image": "splash.jpeg"
 	},
-	{
-		"name": "Ruffle",
-		"directory": "ruffle",
-		"image": "favicon-180.png"
-	},
+	
 	{
 		"name": "Geometry Rash",
 		"directory": "geometryrash",
