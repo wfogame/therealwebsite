@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Karlson",
+		"image": "cover.svg",
+		"directory": "karlson"
+	},
+	{
 		"name": "Adventure",
 		"image": "cover.svg",
 		"directory": "adventure"
