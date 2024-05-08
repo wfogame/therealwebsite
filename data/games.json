@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Adventure",
+		"image": "cover.svg",
+		"directory": "adventure"
+	},
+	{
 		"name": "The Heist",
 		"image": "cover.svg",
 		"directory": "heist"
