@@ -195,3 +195,4 @@ cookieConsentStyle.href = "/js/cookieConsent.css";
 cookieConsentStyle.rel = "stylesheet";
 document.head.appendChild(cookieConsentStyle);
 
+var translateDiv=document.createElement("div");translateDiv.id="google_translate_element",document.querySelector("footer").appendChild(translateDiv);var scriptElement=document.createElement("script");scriptElement.type="text/javascript",scriptElement.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",document.querySelector("footer").appendChild(scriptElement);function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en"},"google_translate_element")}
