@@ -1,4 +1,3 @@
-
 var interval;
 document.addEventListener("DOMContentLoaded", function () {
 	if (localStorage.getItem("theme")) {
@@ -195,3 +194,4 @@ let cookieConsentStyle = document.createElement("link");
 cookieConsentStyle.href = "/js/cookieConsent.css";
 cookieConsentStyle.rel = "stylesheet";
 document.head.appendChild(cookieConsentStyle);
+

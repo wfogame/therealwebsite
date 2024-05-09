@@ -1,5 +1,80 @@
 [
 	{
+		"name": "CrossNRoad",
+		"image": "cover.svg",
+		"directory": "crossnroad"
+	},
+	{
+		"name": "Tappy Plane",
+		"image": "cover.svg",
+		"directory": "tappyplane"
+	},
+	{
+		"name": "Putin on the Ritz",
+		"image": "cover.svg",
+		"directory": "ritz"
+	},
+	{
+		"name": "Sandboxels",
+		"image": "cover.svg",
+		"directory": "box"
+	},
+	{
+		"name": "Flappy Race",
+		"image": "cover.svg",
+		"directory": "flappyrace"
+	},
+	{
+		"name": "Karlson",
+		"image": "cover.svg",
+		"directory": "karlson"
+	},
+	{
+		"name": "Adventure",
+		"image": "cover.svg",
+		"directory": "adventure"
+	},
+	{
+		"name": "The Heist",
+		"image": "cover.svg",
+		"directory": "heist"
+	},
+	{
+		"name": "Age of War 2",
+		"image": "cover.svg",
+		"directory": "aow2"
+	},
+	{
+		"name": "Star Clicker",
+		"image": "cover.svg",
+		"directory": "star"
+	},
+	{
+		"name": "Racer",
+		"image": "cover.svg",
+		"directory": "racer"
+	},
+	{
+		"name": "Fort@dmin",
+		"image": "cover.svg",
+		"directory": "fort"
+	},
+	{
+		"name": "Flappy Dino",
+		"image": "cover.svg",
+		"directory": "fld"
+	},
+	{
+		"name": "Connect Four",
+		"image": "cover.svg",
+		"directory": "c4"
+	},
+	{
+		"name": "13 Days of Hell",
+		"image": "cover.svg",
+		"directory": "13"
+	},
+	{
 		"name": "Mindustry",
 		"image": "cover.svg",
 		"directory": "mind"
@@ -277,11 +352,6 @@
 	{
 		"name": "Worlds Hardest Game",
 		"directory": "worldshardestgame",
-		"image": "icon.png"
-	},
-	{
-		"name": "GBA Emulator",
-		"directory": "gba",
 		"image": "icon.png"
 	},
 	{
@@ -623,11 +693,6 @@
 		"name": "Universal Paperclips",
 		"directory": "universal-paperclips",
 		"image": "universal-paperclips.png"
-	},
-	{
-		"name": "Windows 11",
-		"directory": "win11",
-		"image": "favicon.png"
 	},
 	{
 		"name": "Learn to Fly 2",
@@ -984,16 +1049,7 @@
 		"directory": "amazing-rope-police",
 		"image": "splash.jpeg"
 	},
-	{
-		"name": "Ruffle",
-		"directory": "ruffle",
-		"image": "favicon-180.png"
-	},
-	{
-		"name": "emulatorJS",
-		"directory": "emulatorjs",
-		"image": "logo.png"
-	},
+	
 	{
 		"name": "Geometry Rash",
 		"directory": "geometryrash",

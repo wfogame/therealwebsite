@@ -6,10 +6,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Scratch 2 to Flash</title>
-    <style>html{background-color:#000;}</style>
+    <style>html{background-color:#fff;}</style>
   </head>
   <body>
-    <div id="ruffle" width="100%" height="100%"></div>
+    <center>
+      <br /> <br />
+    <div id="ruffle" width="100%" height="100%"></div></center>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script>
       window.RufflePlayer = window.RufflePlayer || {};
@@ -18,10 +20,10 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("ruffle");
         player.id = "player";
-        player.style.width = "100%";
-        player.style.height = "100%";
+        player.style.width = "55%";
+        player.style.height = "80%";
         container.appendChild(player);
-        player.load("converter.swf");
+        player.load("Converter.swf");
       });
     </script>
   </body>

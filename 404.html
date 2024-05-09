@@ -59,7 +59,37 @@
     <main id="main" class="noscroll">
       <h1>Page not found!</h1>
       <p>We could not find this page.</p>
-      <a href="/index.html">Go home</a>
+      <a href="/index.html"><button>Go home</button></a>
+      <button onclick="statsForNerds()">Stats for nerds</button>
+          <div id="sfn" style="display: none;" class="message">
+      Please report this to our <a href="https://discord.gg/7jyufnwJNf">Discord</a> or <a href="mailto:support@selenite.cc">email.</a> <br> 
+      Requested URL: <span id="full">You need Javascript to show the Stats for nerds</span><br>
+      Referrer: <span id="ref">You need Javascript to show the Stats for nerds</span><br>
+      Title: <span id="title">You need Javascript to show the Stats for nerds</span><br>
+      Screen height: <span id="height">You need Javascript to show the Stats for nerds</span><br>
+      Screen width: <span id="width">You need Javascript to show the Stats for nerds</span><br>
+      Window height: <span id="winheight">You need Javascript to show the Stats for nerds</span><br>
+      Window width: <span id="winwidth">You need Javascript to show the Stats for nerds</span><br>
+      Cookies: <span id="cookie">You need Javascript to show the Stats for nerds</span><br>
+      User agent: <span id="ua">You need Javascript to show the Stats for nerds</span><br>
+      OS platform: <span id="plat">You need Javascript to show the Stats for nerds</span><br>
+      Online: <span id="online">You need Javascript to show the Stats for nerds</span>
+      <br />IP: <span id="ip">You need Javascript to show the Stats for nerds</span><br>
+      Error code: 404<br>
+    </div>
+
+    <script>
+"innerText"in document.body||Object.defineProperty(HTMLElement.prototype,"innerText",{get:function(){return this.textContent},set:function(a){this.textContent=a}}),window.fetch||(window.fetch=function(a){return new Promise(function(b,c){var d=new XMLHttpRequest;d.open("GET",a),d.onload=function(){200===d.status?b(JSON.parse(d.responseText)):c(Error(d.statusText))},d.onerror=function(){c(Error("Network Error"))},d.send()})}),window.XMLHttpRequest||(window.XMLHttpRequest=function(){try{return new ActiveXObject("Msxml2.XMLHTTP.6.0")}catch(a){}try{return new ActiveXObject("Msxml2.XMLHTTP.3.0")}catch(a){}try{return new ActiveXObject("Msxml2.XMLHTTP")}catch(a){}throw new Error("This browser does not support XMLHttpRequest.")});function statsForNerds(){var a=document.getElementById("sfn");"none"===a.style.display?(a.style.display="block",console.log("[\u2139\uFE0F] Showing the stats for nerds!")):(a.style.display="none",console.log("[\u2139\uFE0F] Hiding the stats for nerds!"))}document.getElementById("full").innerText=window.location.href,document.getElementById("ref").innerHTML=document.referrer,document.getElementById("title").innerText=document.title,document.getElementById("height").innerHTML=screen.height+"px",document.getElementById("width").innerHTML=screen.width+"px",document.getElementById("winheight").innerHTML=window.innerHeight+"px",document.getElementById("winwidth").innerHTML=window.innerWidth+"px",document.getElementById("cookie").innerText=navigator.cookieEnabled,document.getElementById("ua").innerHTML=navigator.userAgent,document.getElementById("plat").innerHTML=navigator.platform,document.getElementById("online").innerHTML=navigator.onLine;var echolog={};fetch("//wtfismyip.com/json").then(function(a){return a.json()}).then(function(a){var b={ipAddress:a.YourFuckingIPAddress,hostname:a.YourFuckingHostname},c=document.getElementById("ip");c.innerText=b.ipAddress})["catch"](function(a){return console.error(a)});
+    </script>
+            <div id="adcontainer">
+        <h3><a href="ad.html">AD (click to read more):</a></h3>
+        <script async="async" data-cfasync="false" src="//snailthreatenedinvited.com/92108816b5da54426d1639bcbfb5785c/invoke.js"></script>
+        <div id="container-92108816b5da54426d1639bcbfb5785c"></div>
+      </div>
+      <div id="adcontainer">
+        <script type='text/javascript' src='//snailthreatenedinvited.com/f9/78/06/f97806fd0f338057a67abb4e5e710970.js'></script>
+      </div>
+
     </main>
     
     <footer class="noscroll">

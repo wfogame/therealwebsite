@@ -56,6 +56,7 @@
         <select id="presetCloaks">
           <option>Select a preset:</option>
           <option value="google">Google</option>
+          <option value="ddg">DuckDuckGo</option>
           <option value="canvas">Canvas</option>
           <option value="desmos">Desmos</option>
           <option value="drive">Google Drive</option>
@@ -98,14 +99,17 @@
         <button onclick="setTheme('mountains' + (bgTheme.checked ? '' : 'false'))" style="background-color: #d37f7f; color: #fff; border: 5px solid #e28a8a">mountains</button>
         <button onclick="setTheme('vaporwave' + (bgTheme.checked ? '' : 'false'))" style="background-color: #4b2d64; color: #fff; border: 5px solid #74568d">vaporwave</button>
         <button onclick="setTheme('threekho')" style="background-color: #28A018; color: #fff; border: 5px solid #0A8F00">3kh0</button>
-        <button onclick="setTheme('bgs' + (bgTheme.checked ? '' : 'false'))" style="background-color: #553113; color: #fff; border: 5px solid #3d220c">bigfoot</button>
         <button onclick="setTheme('seraph' + (bgTheme.checked ? '' : 'false'))" style="background-color: #000; color: #fff; border: 2px solid #fff">seraph</button>
         <button onclick="setTheme('nighttime' + (bgTheme.checked ? '' : 'false'))" style="background-color: #29374d; color: #fff; border: 2px solid #fff">nighttime</button>
-        <button onclick="setTheme('mocha' + (bgTheme.checked ? '' : 'false'))" style="background-color: #6c7086; color: #fff; border: 2px solid #7f849c">Mocha</button>
-        <button onclick="setTheme('macchiato' + (bgTheme.checked ? '' : 'false'))" style="background-color: #6e738d; color: #fff; border: 5px solid #8087a2">Macchiato</button>
-        <button onclick="setTheme('frappe' + (bgTheme.checked ? '' : 'false'))" style="background-color: #737994; color: #cad3f5; border: 2px solid #838ba7">Frappe</button>
-        <button onclick="setTheme('latte' + (bgTheme.checked ? '' : 'false'))" style="background-color: #9ca0b0; color: #4c4f69; border: 5px solid #8c8fa1">Latte</button>
+        <button onclick="setTheme('mocha' + (bgTheme.checked ? '' : 'false'))" style="background-color: #6c7086; color: #fff; border: 2px solid #7f849c">mocha</button>
+        <button onclick="setTheme('macchiato' + (bgTheme.checked ? '' : 'false'))" style="background-color: #6e738d; color: #fff; border: 5px solid #8087a2">macchiato</button>
+        <button onclick="setTheme('frappe' + (bgTheme.checked ? '' : 'false'))" style="background-color: #737994; color: #cad3f5; border: 2px solid #838ba7">frappe</button>
+        <button onclick="setTheme('latte' + (bgTheme.checked ? '' : 'false'))" style="background-color: #9ca0b0; color: #4c4f69; border: 5px solid #8c8fa1">latte</button>
+                       <button onclick="setTheme('dogcat')" style="background-color: #537294; color: #fff; border: 5px solid #30719c">dog and cat</button>
+                       <button onclick="setTheme('art')" style="background-color: #0284d4; color: #fff; border: 5px solid #0284d4">art class</button>
+        
         <button onclick="customTheme()">custom</button>
+   
       </div>
       <div id="customMenu" style="display: none;">
         <p>Input BG Color</p>
@@ -140,7 +144,7 @@
         <input id="setPass" class="submit" type="submit" value="Set Password" />
         <button id="delPass" onclick="delPassword()">Delete Password</button>
       </form>
-      <form>
+          <form>
         <h3 for="adblock">Disable Advertisements</h3>
         <p>If you disable advertisements, please donate to the <a href="https://www.patreon.com/selenitecc">Patreon</a> to support the website.</p>
 <button onclick="localStorage.setItem('selenite.adblock', 'true')">Click here to disable ads.</button>
@@ -154,7 +158,9 @@
       <a href="/contact.html">Contact</a>
       <a href="/support.html">Donate</a>
       <a href="/about.html">About</a>
+        
     </footer>
+
   </body>
 </html>
 

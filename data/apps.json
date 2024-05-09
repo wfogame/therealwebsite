@@ -1,5 +1,56 @@
 [
 	{
+		"name": "Ruffle", 
+		"directory": "ruffle",
+		"image": "cover.svg"
+	},
+	{
+		"name": "ZIP Unarchiver", 
+		"directory": "zip",
+		"image": "cover.svg"
+	},
+
+	{
+		"name": "GBA Emulator", 
+		"directory": "gba",
+		"image": "cover.svg"
+	},
+	{
+		"name": "EmulatorJS", 
+		"directory": "emu",
+		"image": "cover.svg"
+	},
+	{
+		"name": "Scratch 1", 
+		"directory": "scratch1",
+		"image": "cover.svg"
+	},
+	{
+		"name": "AyunWebEPK",
+		"directory": "ayun",
+		"image": "cover.svg"
+	},
+	{
+		"name": "Scratch 2",
+		"directory": "scratch2",
+		"image": "cover.svg"
+	},
+	{
+		"name": "SB2 to SWF",
+		"directory": "sb2toswf",
+		"image": "cover.svg"
+	},
+	{
+		"name": "MiniWiki",
+		"directory": "wiki",
+		"image": "cover.svg"
+	},
+	{
+		"name": "Windows 11",
+		"directory": "11",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Javascript Deobfuscator",
 		"directory": "deobsfucator",
 		"image": "cover.svg"
