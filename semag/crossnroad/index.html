@@ -110,7 +110,7 @@ function preload() {
 } 
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(windowWidth, windowHeight);
   carSpeed = random(5, 15);
   carType = random(["🚗", "🚙", "🚓"]);
 
@@ -144,6 +144,7 @@ function draw() {
     }
 
     push();
+    textFont('Press');
     textSize(50);
     text("Score: " + score, 10, 50);
     pop();
