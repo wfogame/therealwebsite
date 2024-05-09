@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Sandboxels",
+		"image": "cover.svg",
+		"directory": "box"
+	},
+	{
 		"name": "Flappy Race",
 		"image": "cover.svg",
 		"directory": "flappyrace"
