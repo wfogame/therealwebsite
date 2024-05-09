@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Putin on the Ritz",
+		"image": "cover.svg",
+		"directory": "ritz"
+	},
+	{
 		"name": "Sandboxels",
 		"image": "cover.svg",
 		"directory": "box"
