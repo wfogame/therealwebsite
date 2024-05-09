@@ -77,9 +77,9 @@ canvas {
      <button  class="b">Click to Play</button> 
  
 <script>
-  function preload() { 
-  Press = loadFont('assets/Press.ttf');
-} 
+  let newFont; 
+
+  
   var carX = 740;
 var carSpeed;
 var carType;
@@ -104,6 +104,10 @@ var score = 0;
 
 var lives = 3;
 var loseMode = false;
+
+function preload() { 
+  Press = loadFont('assets/Press.ttf');
+} 
 
 function setup() {
   createCanvas(700, 700);
