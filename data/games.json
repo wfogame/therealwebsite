@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Tappy Plane",
+		"image": "cover.svg",
+		"directory": "tappyplane"
+	},
+	{
 		"name": "Putin on the Ritz",
 		"image": "cover.svg",
 		"directory": "ritz"
