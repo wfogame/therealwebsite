@@ -78,7 +78,6 @@ canvas {
  
 <script>
   let Press;
-  let Emoji; 
 
   
   var carX = 740;
@@ -108,7 +107,6 @@ var loseMode = false;
 
 function preload() { 
   Press = loadFont('assets/Press.ttf');
-  Emoji = loadFont('assets/Emoji.ttf');
 } 
 
 function setup() {
@@ -188,7 +186,6 @@ function cars() {
   );
 
   push();
-  textFont('Emoji');
   textSize(100);
   text(carType, carX, 570);
   pop();
@@ -201,7 +198,6 @@ function cars() {
   }
 
   push();
-  textFont('Emoji');
   textSize(100);
   text(carType2, carX2, 430);
   pop();
@@ -214,7 +210,6 @@ function cars() {
   }
 
   push();
-  textFont('Emoji');
   textSize(100);
   text(carType3, carX3, 185);
   pop();
@@ -278,7 +273,6 @@ function keyPressed() {
 
 function doorKey() {
   push();
-  textFont('Emoji');
   textSize(60);
   text("🔑", keyX, keyY);
   pop();
@@ -319,7 +313,6 @@ function rectRect(r1x, r1y, r1w, r1h, r2x, r2y, r2w, r2h) {
 function door() {
  
   push();
-  textFont('Emoji');
   textSize(80);
   text("🚪", 320, 60);
   pop();
@@ -336,7 +329,6 @@ function door() {
 
 function lifeCount() {
   push();
-  textFont('Emoji');
   textSize(50);
   text("❤️", 510, 50);
   text("❤️", 570, 50);
