@@ -13,7 +13,7 @@ I take the security of our project seriously. If you have discovered a security 
 If you believe you have found a critical or severe security vulnerability that could potentially cause significant harm if exploited, please report it privately to me:
 
 1. **Do not** create a public GitHub issue or pull request.
-2. Send an email to [security@yourproject.com](mailto:security@yourproject.com) with details of the vulnerability.
+2. Send an email to [support-here@thestoreselection.com](mailto:support-here@thestoreselection.com) with details of the vulnerability.
 3. Include steps to reproduce the issue if possible.
 4. If you have a proposed fix, please include it in your email.
 
